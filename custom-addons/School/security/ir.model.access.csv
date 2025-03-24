@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_school_student,Student Access,model_school_student,group_school_student,1,0,0,0
+access_school_teacher,Teacher Access,model_school_teacher,group_school_teacher,1,1,0,0
+access_school_admin,Admin Access,model_school_admin,group_school_admin,1,1,1,1
+
+access_school_attendance_student,Attendance Student,model_school_attendance,group_school_student,1,0,0,0
+access_school_attendance_teacher,Attendance Teacher,model_school_attendance,group_school_teacher,1,1,1,0
+access_school_attendance_admin,Attendance Admin,model_school_attendance,group_school_admin,1,1,1,1
+
+access_school_fees_student,Fees Student,model_school_fees,group_school_student,1,0,0,0
+access_school_fees_admin,Fees Admin,model_school_fees,group_school_admin,1,1,1,1

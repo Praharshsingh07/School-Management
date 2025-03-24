@@ -1,0 +1,19 @@
+<odoo>
+    <data noupdate="1">
+        <!-- Student Group -->
+        <record id="group_school_student" model="res.groups">
+            <field name="name">Student</field>
+        </record>
+
+        <!-- Teacher Group -->
+        <record id="group_school_teacher" model="res.groups">
+            <field name="name">Teacher</field>
+        </record>
+
+        <!-- Admin Group -->
+        <record id="group_school_admin" model="res.groups">
+            <field name="name">School Admin</field>
+            <field name="category_id" ref="base.module_category_hidden"/>
+        </record>
+    </data>
+</odoo>
