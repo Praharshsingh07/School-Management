@@ -10,6 +10,7 @@ class StudentDashboard(models.Model):
     class_id = fields.Many2one('school.class', string="Class", related='student_id.class_id', store=True)
     timetable_today = fields.Many2many('school.timetable', string="Today's Timetable", compute='_compute_timetable_today', store=True)    
     attendance_today = fields.One2many('school.attendance', 'student_id', string="Today's Attendance", compute='_compute_attendance_today',store=True)
+    # subject_id= self.env['school.timetable']['subject_id']
 
     @api.depends('user_id')
     def _compute_student(self):

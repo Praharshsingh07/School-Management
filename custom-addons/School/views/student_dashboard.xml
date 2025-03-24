@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
+    <!-- Define a separate timetable tree view -->
+    <record id="view_school_timetable_dashboard_tree" model="ir.ui.view">
+        <field name="name">school.timetable.dashboard.tree</field>
+        <field name="model">school.timetable</field>
+        <field name="arch" type="xml">
+            <list string="Timetable">
+                <field name="subject_id"/>
+                <field name="time_slot"/>
+                <field name="room_no"/>
+                <field name="teacher_id"/>
+            </list>
+        </field>
+    </record>
+
+
+
     <record id="view_student_dashboard_kanban" model="ir.ui.view">
         <field name="name">Student Dashboard Kanban</field>
         <field name="model">school.student.dashboard</field>
@@ -24,21 +41,14 @@
                 </group>
                 <notebook>
                     <page string="Today's Timetable">
-                        <field name="timetable_today" widget="many2many" options="{'no_create': True}">
-                            <tree>
-                                <field name="subject_id"/>
-                                <field name="time_slot"/>
-                                <field name="room_no"/>
-                                <field name="teacher_id"/>
-                            </tree>
-                        </field>
+                        <field name="timetable_today" widget="many2many" mode="tree" context="{'tree_view_ref': 'school.view_school_timetable_dashboard_tree'}"/>
                     </page>
                     <page string="Today's Attendance">
                         <field name="attendance_today">
-                            <tree>
+                            <list>
                                 <field name="subject_id"/>
                                 <field name="status"/>
-                            </tree>
+                            </list>
                         </field>
                     </page>
                 </notebook>
