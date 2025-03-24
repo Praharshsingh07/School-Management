@@ -1,4 +1,5 @@
 from odoo import models, fields, api
+from odoo.exceptions import ValidationError
 
 class SchoolStudent(models.Model):
     _name = 'school.student'
@@ -17,7 +18,7 @@ class SchoolStudent(models.Model):
     class_id = fields.Many2one('school.class', string='Class', required=True)
     
     address = fields.Text(string='Address')
-    email = fields.Char(string='Email', unique=True)
+    email = fields.Char(string='Email', unique=True, required=True)
     phone = fields.Char(string='Phone')
 
     # Guardian Details
@@ -30,7 +31,7 @@ class SchoolStudent(models.Model):
     
     active = fields.Boolean(string="Active", default=True)  # To archive students
 
-    user_id = fields.Many2one('res.users', string="User", required=True)
+    user_id = fields.Many2one('res.users', string="User", readonly=True)
 
     _sql_constraints = [
         ('unique_roll_no', 'unique(roll_no)', 'Roll No must be unique!'),
@@ -39,9 +40,23 @@ class SchoolStudent(models.Model):
 
     @api.model
     def create(self, vals):
-        """Automatically assign students to the 'Student' security group"""
+        """Automatically creates a user and assigns 'password' as the default password."""
+        if not vals.get('email'):
+            raise ValidationError("Email is required to create a student user.")
+
         student_group = self.env.ref('your_module.group_school_student', raise_if_not_found=False)
-        user = self.env['res.users'].browse(vals['user_id'])
-        if student_group:
-            user.write({'groups_id': [(4, student_group.id)]})
+
+        # Create a new user for the student with the default password
+        user_vals = {
+            'name': vals.get('name'),
+            'login': vals.get('email'),
+            'email': vals.get('email'),
+            'password': 'password',  # Default password for all students
+            'groups_id': [(4, student_group.id)] if student_group else []
+        }
+        new_user = self.env['res.users'].create(user_vals)
+
+        # Assign the newly created user to the student
+        vals['user_id'] = new_user.id
+
         return super(SchoolStudent, self).create(vals)

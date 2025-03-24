@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_student_dashboard_kanban" model="ir.ui.view">
+        <field name="name">Student Dashboard Kanban</field>
+        <field name="model">school.student.dashboard</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <field name="user_id"/>
+                <field name="class_id"/>
+                <field name="timetable_today"/>
+                <field name="attendance_today"/>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="view_student_dashboard_form" model="ir.ui.view">
+        <field name="name">Student Dashboard Form</field>
+        <field name="model">school.student.dashboard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="student_id" readonly="1"/>
+                    <field name="class_id" readonly="1"/>
+                </group>
+                <notebook>
+                    <page string="Today's Timetable">
+                        <field name="timetable_today" widget="many2many" options="{'no_create': True}">
+                            <tree>
+                                <field name="subject_id"/>
+                                <field name="time_slot"/>
+                                <field name="room_no"/>
+                                <field name="teacher_id"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page string="Today's Attendance">
+                        <field name="attendance_today">
+                            <tree>
+                                <field name="subject_id"/>
+                                <field name="status"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </form>
+        </field>
+    </record>
+
+</odoo>

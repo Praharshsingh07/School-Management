@@ -9,6 +9,7 @@ class SchoolTeacher(models.Model):
     employee_id = fields.Char(string='Employee ID', required=True, copy=False, unique=True)
     email = fields.Char(string='Email', unique=True)
     phone = fields.Char(string='Phone')
+    user_id = fields.Many2one('res.users', string="Related User")
     
     gender = fields.Selection([
         ('male', 'Male'),
