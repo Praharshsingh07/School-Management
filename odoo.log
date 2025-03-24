@@ -1,0 +1,186 @@
+2025-03-24 06:48:12,427 64440 INFO ? odoo: Odoo version 18.0 
+2025-03-24 06:48:12,427 64440 INFO ? odoo: Using configuration file at /home/silent/Desktop/OddoTraining/odoo.conf 
+2025-03-24 06:48:12,427 64440 INFO ? odoo: addons paths: ['/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons', '/home/silent/.local/share/Odoo/addons/18.0', '/home/silent/Desktop/OddoTraining/odoo-18/addons', '/home/silent/Desktop/OddoTraining/custom-addons'] 
+2025-03-24 06:48:12,428 64440 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-24 06:48:12,560 64440 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-03-24 06:48:12,576 64440 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-03-24 06:48:12,746 64440 INFO ? odoo.service.server: HTTP service (werkzeug) running on 192.168.1.25:5000 
+2025-03-24 06:48:12,761 64440 INFO odoo-rd-demo odoo.modules.loading: loading 1 modules... 
+2025-03-24 06:48:12,768 64440 INFO odoo-rd-demo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-24 06:48:12,778 64440 INFO odoo-rd-demo odoo.modules.loading: loading 13 modules... 
+2025-03-24 06:48:13,182 64440 INFO odoo-rd-demo odoo.modules.loading: 13 modules loaded in 0.40s, 0 queries (+0 extra) 
+2025-03-24 06:48:13,226 64440 INFO odoo-rd-demo odoo.modules.loading: Modules loaded. 
+2025-03-24 06:48:13,229 64440 INFO odoo-rd-demo odoo.modules.registry: Registry loaded in 0.482s 
+2025-03-24 06:48:17,266 64440 INFO odoo-rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-24 06:48:17,541 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:17] "GET /odoo/apps HTTP/1.1" 200 - 81 0.030 0.248
+2025-03-24 06:48:17,641 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:17] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.004 0.014
+2025-03-24 06:48:17,652 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:17] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.003 0.021
+2025-03-24 06:48:17,688 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:17] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.015
+2025-03-24 06:48:17,691 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:17] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.012 0.023
+2025-03-24 06:48:17,977 64440 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-24 06:48:17,992 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:17] "POST /web/action/load HTTP/1.1" 200 - 12 0.005 0.326
+2025-03-24 06:48:17,999 64440 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-24 06:48:18,153 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:18] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 56 0.031 0.121
+2025-03-24 06:48:18,166 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:18] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-24 06:48:18,227 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:18] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 56 0.030 0.035
+2025-03-24 06:48:18,239 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:18] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.065
+2025-03-24 06:48:19,892 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:19] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.009
+2025-03-24 06:48:24,052 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 54 0.019 0.041
+2025-03-24 06:48:24,068 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.008
+2025-03-24 06:48:26,055 64440 INFO odoo-rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['School Management'] to user admin #2 via 127.0.0.1 
+2025-03-24 06:48:26,055 64440 INFO odoo-rd-demo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-03-24 06:48:26,056 64440 INFO odoo-rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['School Management'] to user admin #2 via 127.0.0.1 
+2025-03-24 06:48:26,177 64440 INFO odoo-rd-demo odoo.modules.loading: loading 1 modules... 
+2025-03-24 06:48:26,187 64440 INFO odoo-rd-demo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-24 06:48:26,222 64440 INFO odoo-rd-demo odoo.modules.loading: updating modules list 
+2025-03-24 06:48:26,223 64440 INFO odoo-rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-03-24 06:48:27,055 64440 INFO odoo-rd-demo odoo.modules.loading: loading 13 modules... 
+2025-03-24 06:48:27,068 64440 INFO odoo-rd-demo odoo.modules.loading: 13 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-24 06:48:27,070 64440 INFO odoo-rd-demo odoo.modules.loading: loading 14 modules... 
+2025-03-24 06:48:27,070 64440 INFO odoo-rd-demo odoo.modules.loading: Loading module School (2/14) 
+2025-03-24 06:48:27,071 64440 CRITICAL odoo-rd-demo odoo.modules.module: Couldn't load module School 
+2025-03-24 06:48:27,073 64440 WARNING odoo-rd-demo odoo.modules.loading: Transient module states were reset 
+2025-03-24 06:48:27,074 64440 ERROR odoo-rd-demo odoo.modules.registry: Failed to load registry 
+2025-03-24 06:48:27,077 64440 INFO odoo-rd-demo odoo.modules.loading: loading 1 modules... 
+2025-03-24 06:48:27,084 64440 INFO odoo-rd-demo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-24 06:48:27,088 64440 INFO odoo-rd-demo odoo.modules.loading: loading 13 modules... 
+2025-03-24 06:48:27,100 64440 INFO odoo-rd-demo odoo.modules.loading: 13 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-24 06:48:27,139 64440 INFO odoo-rd-demo odoo.modules.loading: Modules loaded. 
+2025-03-24 06:48:27,142 64440 INFO odoo-rd-demo odoo.modules.registry: Registry loaded in 0.067s 
+2025-03-24 06:48:27,145 64440 ERROR odoo-rd-demo odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2177, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/addons/web/controllers/dataset.py", line 42, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 533, in call_kw
+    result = getattr(recs, name)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 75, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 480, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 604, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 481, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "/home/silent/Desktop/OddoTraining/custom-addons/School/__init__.py", line 1, in <module>
+    from . import models
+ImportError: cannot import name 'models' from partially initialized module 'odoo.addons.School' (most likely due to a circular import) (/home/silent/Desktop/OddoTraining/custom-addons/School/__init__.py)
+2025-03-24 06:48:27,146 64440 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:48:27] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 1632 0.297 0.805
+2025-03-24 06:49:18,997 65055 INFO ? odoo: Odoo version 18.0 
+2025-03-24 06:49:18,997 65055 INFO ? odoo: Using configuration file at /home/silent/Desktop/OddoTraining/odoo.conf 
+2025-03-24 06:49:18,997 65055 INFO ? odoo: addons paths: ['/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons', '/home/silent/.local/share/Odoo/addons/18.0', '/home/silent/Desktop/OddoTraining/odoo-18/addons', '/home/silent/Desktop/OddoTraining/custom-addons'] 
+2025-03-24 06:49:18,997 65055 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-24 06:49:19,130 65055 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-03-24 06:49:19,145 65055 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-03-24 06:49:19,311 65055 INFO ? odoo.service.server: HTTP service (werkzeug) running on 192.168.1.25:5000 
+2025-03-24 06:49:19,327 65055 INFO odoo-rd-demo odoo.modules.loading: loading 1 modules... 
+2025-03-24 06:49:19,334 65055 INFO odoo-rd-demo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-24 06:49:19,343 65055 INFO odoo-rd-demo odoo.modules.loading: loading 13 modules... 
+2025-03-24 06:49:19,748 65055 INFO odoo-rd-demo odoo.modules.loading: 13 modules loaded in 0.41s, 0 queries (+0 extra) 
+2025-03-24 06:49:19,798 65055 INFO odoo-rd-demo odoo.modules.loading: Modules loaded. 
+2025-03-24 06:49:19,802 65055 INFO odoo-rd-demo odoo.modules.registry: Registry loaded in 0.489s 
+2025-03-24 06:49:19,805 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-24 06:49:19,841 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:19] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 6 0.002 0.041
+2025-03-24 06:49:19,856 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:19] "POST /bus/get_autovacuum_info HTTP/1.1" 200 - 4 0.001 0.005
+2025-03-24 06:49:20,177 65055 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-24 06:49:25,536 65055 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-24 06:49:25,551 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:25] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.290
+2025-03-24 06:49:25,593 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:25] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 15 0.006 0.026
+2025-03-24 06:49:25,608 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:25] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.002 0.005
+2025-03-24 06:49:27,085 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:27] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 5 0.004 0.021
+2025-03-24 06:49:27,101 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-03-24 06:49:28,156 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:28] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 1578 0.328 0.733
+2025-03-24 06:49:30,678 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['School Management'] to user admin #2 via 127.0.0.1 
+2025-03-24 06:49:30,678 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-03-24 06:49:30,679 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['School Management'] to user admin #2 via 127.0.0.1 
+2025-03-24 06:49:30,810 65055 INFO odoo-rd-demo odoo.modules.loading: loading 1 modules... 
+2025-03-24 06:49:30,817 65055 INFO odoo-rd-demo odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-24 06:49:30,851 65055 INFO odoo-rd-demo odoo.modules.loading: updating modules list 
+2025-03-24 06:49:30,853 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-03-24 06:49:31,729 65055 INFO odoo-rd-demo odoo.modules.loading: loading 13 modules... 
+2025-03-24 06:49:31,740 65055 INFO odoo-rd-demo odoo.modules.loading: 13 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-24 06:49:31,742 65055 INFO odoo-rd-demo odoo.modules.loading: loading 14 modules... 
+2025-03-24 06:49:31,742 65055 INFO odoo-rd-demo odoo.modules.loading: Loading module School (2/14) 
+2025-03-24 06:49:31,842 65055 INFO odoo-rd-demo odoo.modules.loading: Module School loaded in 0.10s, 12 queries (+12 other) 
+2025-03-24 06:49:31,843 65055 INFO odoo-rd-demo odoo.modules.loading: 14 modules loaded in 0.10s, 12 queries (+12 extra) 
+2025-03-24 06:49:32,100 65055 INFO odoo-rd-demo odoo.modules.loading: Modules loaded. 
+2025-03-24 06:49:32,104 65055 INFO odoo-rd-demo odoo.modules.registry: Registry changed, signaling through the database 
+2025-03-24 06:49:32,104 65055 INFO odoo-rd-demo odoo.modules.registry: Registry loaded in 1.311s 
+2025-03-24 06:49:32,105 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2025-03-24 06:49:32,108 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 2070 0.443 0.995
+2025-03-24 06:49:32,123 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-24 06:49:32,369 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "GET /odoo HTTP/1.1" 200 - 75 0.021 0.227
+2025-03-24 06:49:32,392 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "GET /web/webclient/translations/86c93664d5039751fcba03738d97a2f022e82d59?lang=en_US HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-24 06:49:32,466 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.009 0.015
+2025-03-24 06:49:32,503 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.007 0.047
+2025-03-24 06:49:32,504 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.022
+2025-03-24 06:49:32,523 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "POST /web/action/load HTTP/1.1" 200 - 11 0.006 0.034
+2025-03-24 06:49:32,526 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.008
+2025-03-24 06:49:32,564 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "POST /web/dataset/call_kw/hotel.room/get_views HTTP/1.1" 200 - 23 0.008 0.021
+2025-03-24 06:49:32,582 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "POST /web/dataset/call_kw/hotel.room/web_search_read HTTP/1.1" 200 - 3 0.001 0.006
+2025-03-24 06:49:32,582 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:32] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.005
+2025-03-24 06:49:34,234 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:34] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.009
+2025-03-24 06:49:37,947 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:37] "POST /web/action/load HTTP/1.1" 200 - 10 0.006 0.018
+2025-03-24 06:49:38,031 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:38] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 50 0.016 0.054
+2025-03-24 06:49:38,044 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.006
+2025-03-24 06:49:38,099 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 57 0.030 0.029
+2025-03-24 06:49:38,105 65055 INFO odoo-rd-demo werkzeug: 127.0.0.1 - - [24/Mar/2025 06:49:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.059
+2025-03-24 06:51:21,921 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-03-24 06:51:21,950 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-03-24 06:51:21,986 65055 INFO odoo-rd-demo odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-03-24 06:51:21,991 65055 INFO odoo-rd-demo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-03-24 06:51:21,994 65055 INFO odoo-rd-demo odoo.addons.base.models.res_device: GC device logs delete 1 entries 
+2025-03-24 06:51:21,996 65055 INFO odoo-rd-demo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-03-24 06:51:22,002 65055 INFO odoo-rd-demo odoo.models.unlink: User #1 deleted base.module.update records with IDs: [1] 
+2025-03-24 06:51:22,012 65055 INFO odoo-rd-demo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-03-24 06:51:22,019 65055 INFO odoo-rd-demo odoo.models.unlink: User #1 deleted bus.bus records with IDs: [8, 9, 10, 11, 12] 
+2025-03-24 06:51:22,025 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.104s 
+2025-03-24 06:51:22,028 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-03-24 06:51:22,033 65055 INFO odoo-rd-demo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 

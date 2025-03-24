@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Odoo 18",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/odoo-18/odoo-bin",
+            "console": "integratedTerminal",
+            "args": [
+                "--config=${workspaceFolder}/odoo.conf",
+                "--addons-path=${workspaceFolder}/odoo-18/addons,${workspaceFolder}/custom-addons"
+            ],
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/odoo-18"
+            },
+            "python": "${workspaceFolder}/odoo-env/bin/python"
+        }
+    ]
+}

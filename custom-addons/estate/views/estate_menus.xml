@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Root Menu (App switcher) -->
+    <menuitem id="estate_menu_root" name="Real Estate" sequence="10"/>
+
+    <!-- First Level Menu (Main Category) -->
+    <menuitem id="estate_menu_properties" name="Properties" parent="estate_menu_root" sequence="20"/>
+
+    <!-- Action Menu (Leads to estate.property) -->
+    <menuitem id="estate_menu_property_action" action="action_estate_property" parent="estate_menu_properties" sequence="30"/>  
+
+</odoo>
+
