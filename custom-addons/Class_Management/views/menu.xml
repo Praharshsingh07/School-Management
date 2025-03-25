@@ -16,6 +16,6 @@
         <field name="view_mode">kanban,form</field>
     </record>
 
-    <menuitem id="menu_school_class" name="Classes" parent="menu_class_management" action="action_school_class"/>
-    <menuitem id="menu_school_section" name="Sections" parent="menu_class_management" action="action_school_section"/>
+    <menuitem id="menu_school_class" name="Classes" parent="school_teacher.school_menu" action="action_school_class"/>
+    <menuitem id="menu_school_section" name="Sections" parent="school_teacher.school_menu" action="action_school_section"/>
 </odoo>

@@ -16,6 +16,6 @@
         <field name="view_mode">list,form</field>
     </record>
 
-    <menuitem id="menu_student" name="Students" parent="menu_student_management" action="action_student"/>
-    <menuitem id="menu_parent" name="Parents" parent="menu_student_management" action="action_parent"/>
+    <menuitem id="menu_student" name="Students" parent="school_teacher.school_menu" action="action_student"/>
+    <menuitem id="menu_parent" name="Parents" parent="school_teacher.school_menu" action="action_parent"/>
 </odoo>
