@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+    
         {
             "name": "Run Odoo 18",
             "type": "python",
@@ -11,7 +12,6 @@
                 "--config=${workspaceFolder}/odoo.conf",
                 "--addons-path=${workspaceFolder}/odoo-18/addons,${workspaceFolder}/custom-addons",
                 "--dev=all",
-                "--log-level=debug"
             ],
             "env": {
                 "PYTHONPATH": "${workspaceFolder}/odoo-18"
