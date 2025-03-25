@@ -1,0 +1,1580 @@
+2025-03-25 08:47:41,029 96049 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2025-03-25 08:47:54,061 96049 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2025-03-25 08:48:41,093 96049 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2025-03-25 08:48:55,135 96049 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2025-03-25 08:49:41,156 96049 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2025-03-25 08:49:56,210 96049 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2025-03-25 08:50:41,218 96049 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2025-03-25 08:50:57,274 96049 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2025-03-25 08:52:01,300 105557 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2025-03-25 08:52:01,301 105557 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2025-03-25 08:52:01,301 105557 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:52:01,301 105557 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2025-03-25 08:52:01,301 105557 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2025-03-25 08:52:01,301 105557 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:52:01,301 105557 INFO ? odoo: Odoo version 18.0 
+2025-03-25 08:52:01,301 105557 INFO ? odoo: Using configuration file at /home/silent/Desktop/OddoTraining/odoo.conf 
+2025-03-25 08:52:01,301 105557 INFO ? odoo: addons paths: ['/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons', '/home/silent/.local/share/Odoo/addons/18.0', '/home/silent/Desktop/OddoTraining/odoo-18/addons', '/home/silent/Desktop/OddoTraining/custom-addons'] 
+2025-03-25 08:52:01,302 105557 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-25 08:52:01,439 105557 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-03-25 08:52:01,454 105557 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-03-25 08:52:01,674 105557 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-03-25 08:52:01,674 105557 DEBUG ? odoo.service.server: Setting signal handlers 
+2025-03-25 08:52:01,683 105557 INFO ? odoo.service.server: HTTP service (werkzeug) running on 192.168.1.31:5000 
+2025-03-25 08:52:01,701 105557 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:52:01,704 105557 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:52:01,705 105557 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:52:01,713 105557 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:52:01,713 105557 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:52:01,715 105557 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Student_Management', defaulting to LGPL-3 
+2025-03-25 08:52:01,716 105557 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Class_Management', defaulting to LGPL-3 
+2025-03-25 08:52:01,724 105557 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:52:01,724 105557 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:52:01,724 105557 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:52:01,726 105557 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:52:01,726 105557 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:52:01,729 105557 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:52:01,729 105557 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:52:01,731 105557 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:52:01,731 105557 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:52:01,744 105557 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.01s, 0 queries 
+2025-03-25 08:52:01,744 105557 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:52:01,931 105557 DEBUG student odoo.modules.loading: Module base_import loaded in 0.19s, 0 queries 
+2025-03-25 08:52:01,931 105557 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:52:01,934 105557 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:52:01,935 105557 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:52:01,937 105557 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:52:01,937 105557 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:52:02,054 105557 DEBUG student odoo.modules.loading: Module bus loaded in 0.12s, 0 queries 
+2025-03-25 08:52:02,054 105557 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:52:02,056 105557 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:52:02,056 105557 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:52:02,127 105557 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.07s, 0 queries 
+2025-03-25 08:52:02,127 105557 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:52:02,128 105557 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:52:02,128 105557 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:52:02,143 105557 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.01s, 0 queries 
+2025-03-25 08:52:02,144 105557 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:52:02,148 105557 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:52:02,148 105557 INFO student odoo.modules.loading: 14 modules loaded in 0.42s, 0 queries (+0 extra) 
+2025-03-25 08:52:02,191 105557 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:52:02,193 105557 WARNING student odoo.fields: Field school.class.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:52:02,194 105557 WARNING student odoo.fields: Field school.section.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:52:02,206 105557 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:52:02,209 105557 INFO student odoo.modules.registry: Registry loaded in 0.523s 
+2025-03-25 08:52:02,212 105557 DEBUG student odoo.service.server: cron0 started! 
+2025-03-25 08:52:02,214 105557 DEBUG student odoo.service.server: cron1 started! 
+2025-03-25 08:52:11,863 105557 DEBUG ? odoo.http: HTTP sessions stored in: /home/silent/.local/share/Odoo/sessions 
+2025-03-25 08:52:11,867 105557 INFO student odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-25 08:52:11,887 105557 DEBUG student odoo.http: Couldn't load Geoip Country file ([Errno 2] No such file or directory: b'/usr/share/GeoIP/GeoLite2-Country.mmdb'). Fallbacks on Geoip City. 
+2025-03-25 08:52:11,887 105557 DEBUG student odoo.http: Couldn't load Geoip City file at /usr/share/GeoIP/GeoLite2-City.mmdb. IP Resolver disabled. 
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1189, in _country_record
+    return root.geoip_country_db.country(self.ip)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/func.py", line 42, in __get__
+    value = self.fget(obj)
+            ^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2312, in geoip_country_db
+    return geoip2.database.Reader(config['geoip_country_db'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/geoip2/database.py", line 86, in __init__
+    self._db_reader = maxminddb.open_database(fileish, mode)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/maxminddb/__init__.py", line 80, in open_database
+    return cast(Reader, _extension.Reader(database, mode))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: b'/usr/share/GeoIP/GeoLite2-Country.mmdb'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2301, in geoip_city_db
+    return geoip2.database.Reader(config['geoip_city_db'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/geoip2/database.py", line 86, in __init__
+    self._db_reader = maxminddb.open_database(fileish, mode)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/maxminddb/__init__.py", line 80, in open_database
+    return cast(Reader, _extension.Reader(database, mode))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: b'/usr/share/GeoIP/GeoLite2-City.mmdb'
+2025-03-25 08:52:11,890 105557 INFO student odoo.addons.base.models.res_device: User 2 inserts device log (7Y7qpN5M9cweD0QVvUmtZBKySbYQS0LwVHVlDJoRdB) 
+2025-03-25 08:52:11,907 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:11] "GET / HTTP/1.1" 303 - 13 0.007 0.038
+2025-03-25 08:52:12,028 105557 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Student_Management', defaulting to LGPL-3 
+2025-03-25 08:52:12,034 105557 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Class_Management', defaulting to LGPL-3 
+2025-03-25 08:52:12,183 105557 WARNING student odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 180. Replace by @t-out 
+2025-03-25 08:52:12,184 105557 WARNING student odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2025-03-25 08:52:12,184 105557 WARNING student odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2025-03-25 08:52:12,189 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "GET /odoo HTTP/1.1" 200 - 77 0.029 0.242
+2025-03-25 08:52:12,325 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.005 0.016
+2025-03-25 08:52:12,333 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.002 0.019
+2025-03-25 08:52:12,384 105557 DEBUG ? odoo.modules.module: module __init__.py: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:12,388 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.005 0.023
+2025-03-25 08:52:12,408 105557 DEBUG ? odoo.modules.module: module __pycache__: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:12,425 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 21 0.053 0.029
+2025-03-25 08:52:12,701 105557 DEBUG ? odoo.modules.module: module website_twitter: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:12,708 105557 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-25 08:52:12,717 105557 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'School_timetable', defaulting to LGPL-3 
+2025-03-25 08:52:12,718 105557 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-25 08:52:12,747 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "POST /web/action/load HTTP/1.1" 200 - 10 0.010 0.395
+2025-03-25 08:52:12,783 105557 DEBUG student odoo.api: call student.student().get_views(options={'action_id': 89, 'embedded_action_id': False, 'embedded_parent_res_id': False, 'load_filters': True, 'toolbar': True}, views=[[False, 'list'], [False, 'form'], [False, 'search']]) 
+2025-03-25 08:52:12,815 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "POST /web/dataset/call_kw/student.student/get_views HTTP/1.1" 200 - 26 0.009 0.034
+2025-03-25 08:52:12,828 105557 DEBUG student odoo.api: call student.student().web_search_read(count_limit=10001, domain=[], limit=80, offset=0, order='', specification={'name': {}, 'roll_number': {}, 'class_id': {'fields': {'display_name': {}}}, 'section_id': {'fields': {'display_name': {}}}}) 
+2025-03-25 08:52:12,830 105557 DEBUG student odoo.api: call res.users(2,).has_group('base.group_allow_export') 
+2025-03-25 08:52:12,831 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.005
+2025-03-25 08:52:12,832 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:12] "POST /web/dataset/call_kw/student.student/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2025-03-25 08:52:14,477 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:14] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.007
+2025-03-25 08:52:15,366 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:15] "POST /web/action/load HTTP/1.1" 200 - 10 0.005 0.019
+2025-03-25 08:52:15,381 105557 DEBUG student odoo.api: call ir.module.module().get_views(options={'action_id': 39, 'embedded_action_id': False, 'embedded_parent_res_id': False, 'load_filters': True, 'toolbar': True}, views=[[False, 'kanban'], [False, 'list'], [False, 'form'], [95, 'search']]) 
+2025-03-25 08:52:15,460 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:15] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 58 0.015 0.067
+2025-03-25 08:52:15,473 105557 DEBUG student odoo.api: call ir.module.module().search_panel_select_range('module_type', category_domain=[], enable_counters=False, expand=True, filter_domain=[], hierarchize=True, limit=200, search_domain=[['application', '=', True]]) 
+2025-03-25 08:52:15,475 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.007
+2025-03-25 08:52:15,476 105557 DEBUG student odoo.api: call ir.module.module().search_panel_select_range('category_id', category_domain=[], enable_counters=True, expand=False, filter_domain=[], hierarchize=True, limit=200, search_domain=[['application', '=', True]]) 
+2025-03-25 08:52:15,478 105557 DEBUG student odoo.api: call ir.module.module().web_search_read(count_limit=10001, domain=[['application', '=', True]], limit=80, offset=0, order='', specification={'to_buy': {}, 'name': {}, 'state': {}, 'summary': {}, 'website': {}, 'application': {}, 'module_type': {}, 'icon': {}, 'icon_flag': {}, 'shortdesc': {}}) 
+2025-03-25 08:52:15,529 105557 DEBUG student odoo.modules.module: module mrp_workorder: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,534 105557 DEBUG student odoo.modules.module: module accountant: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,534 105557 DEBUG student odoo.modules.module: module knowledge: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,541 105557 DEBUG student odoo.modules.module: module timesheet_grid: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,543 105557 DEBUG student odoo.modules.module: module web_studio: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,546 105557 DEBUG student odoo.modules.module: module industry_fsm: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,553 105557 DEBUG student odoo.modules.module: module sign: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,554 105557 DEBUG student odoo.modules.module: module helpdesk: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,554 105557 DEBUG student odoo.modules.module: module sale_subscription: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,556 105557 DEBUG student odoo.modules.module: module quality_control: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,558 105557 DEBUG student odoo.modules.module: module planning: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,562 105557 DEBUG student odoo.modules.module: module mrp_plm: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,564 105557 DEBUG student odoo.modules.module: module social: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,565 105557 DEBUG student odoo.modules.module: module hr_appraisal: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,567 105557 DEBUG student odoo.modules.module: module marketing_automation: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,569 105557 DEBUG student odoo.modules.module: module appointment: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,572 105557 DEBUG student odoo.modules.module: module web_mobile: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,575 105557 DEBUG student odoo.modules.module: module stock_barcode: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,579 105557 DEBUG student odoo.modules.module: module voip: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,582 105557 DEBUG student odoo.modules.module: module sale_amazon: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:52:15,584 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 76 0.041 0.075
+2025-03-25 08:52:15,587 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:15] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 6 0.046 0.070
+2025-03-25 08:52:18,138 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:18] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.017
+2025-03-25 08:52:18,153 105557 DEBUG student odoo.api: call base.module.update().get_views(options={'action_id': 43, 'embedded_action_id': False, 'embedded_parent_res_id': False, 'load_filters': False, 'toolbar': False}, views=[[False, 'form']]) 
+2025-03-25 08:52:18,167 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:18] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 13 0.003 0.014
+2025-03-25 08:52:18,179 105557 DEBUG student odoo.api: call base.module.update().onchange({}, [], {'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:52:18,181 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:18] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.001 0.004
+2025-03-25 08:52:19,558 105557 DEBUG student odoo.api: call base.module.update().web_save({}, specification={'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:52:19,565 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:19] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 5 0.003 0.011
+2025-03-25 08:52:19,576 105557 DEBUG student odoo.api: call base.module.update(2,).update_module() 
+2025-03-25 08:52:19,577 105557 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-03-25 08:52:20,681 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:20] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 2113 0.392 0.717
+2025-03-25 08:52:22,796 105557 DEBUG student odoo.api: call ir.module.module().search_panel_select_range('category_id', category_domain=[], enable_counters=True, expand=False, filter_domain=[], hierarchize=True, limit=200, search_domain=['&', ['application', '=', True], '|', '|', ['summary', 'ilike', 'time'], ['shortdesc', 'ilike', 'time'], ['name', 'ilike', 'time']]) 
+2025-03-25 08:52:22,847 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:22] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 75 0.020 0.038
+2025-03-25 08:52:22,856 105557 DEBUG student odoo.api: call ir.module.module().web_search_read(count_limit=10001, domain=['&', ['application', '=', True], '|', '|', ['summary', 'ilike', 'time'], ['shortdesc', 'ilike', 'time'], ['name', 'ilike', 'time']], limit=80, offset=0, order='', specification={'to_buy': {}, 'name': {}, 'state': {}, 'summary': {}, 'website': {}, 'application': {}, 'module_type': {}, 'icon': {}, 'icon_flag': {}, 'shortdesc': {}}) 
+2025-03-25 08:52:22,863 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:22] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 6 0.002 0.008
+2025-03-25 08:52:25,508 105557 DEBUG student odoo.api: call ir.module.module(637,).more_info() 
+2025-03-25 08:52:25,510 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:25] "POST /web/dataset/call_button/ir.module.module/more_info HTTP/1.1" 200 - 1 0.001 0.008
+2025-03-25 08:52:25,525 105557 DEBUG student odoo.api: call ir.module.module().get_views(options={'action_id': False, 'embedded_action_id': False, 'embedded_parent_res_id': False, 'load_filters': True, 'toolbar': True}, views=[[False, 'form'], [False, 'search']]) 
+2025-03-25 08:52:25,560 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:25] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 17 0.006 0.032
+2025-03-25 08:52:25,571 105557 DEBUG student odoo.api: call ir.module.module(637,).web_read(specification={'icon_image': {}, 'write_date': {}, 'shortdesc': {}, 'summary': {}, 'author': {}, 'website': {}, 'category_id': {'fields': {'display_name': {}}}, 'name': {}, 'license': {}, 'installed_version': {}, 'demo': {}, 'application': {}, 'state': {}, 'dependencies_id': {'fields': {'name': {}, 'state': {}}, 'limit': 40, 'order': ''}, 'exclusion_ids': {'fields': {'name': {}, 'state': {}}, 'limit': 40, 'order': ''}, 'menus_by_module': {}, 'views_by_module': {}, 'reports_by_module': {}, 'description_html': {}, 'to_buy': {}, 'module_type': {}, 'has_iap': {}, 'display_name': {}}) 
+2025-03-25 08:52:25,627 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:25] "POST /web/dataset/call_kw/ir.module.module/web_read HTTP/1.1" 200 - 20 0.007 0.053
+2025-03-25 08:52:25,679 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:25] "GET /web/image/ir.module.module/637/icon_image?unique=1742892739000 HTTP/1.1" 200 - 5 0.003 0.013
+2025-03-25 08:52:27,425 105557 DEBUG student odoo.api: call ir.module.module(637,).button_immediate_install() 
+2025-03-25 08:52:27,431 105557 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:52:27,431 105557 INFO student odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-03-25 08:52:27,433 105557 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:52:27,557 105557 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:52:27,559 105557 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:52:27,560 105557 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:52:27,566 105557 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:52:27,566 105557 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:52:27,599 105557 INFO student odoo.modules.loading: updating modules list 
+2025-03-25 08:52:27,601 105557 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-03-25 08:52:28,420 105557 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:52:28,420 105557 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:52:28,420 105557 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:52:28,421 105557 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,421 105557 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:52:28,423 105557 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,423 105557 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:52:28,424 105557 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,424 105557 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:52:28,424 105557 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,424 105557 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:52:28,426 105557 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,426 105557 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:52:28,426 105557 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,426 105557 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:52:28,427 105557 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,427 105557 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:52:28,427 105557 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,427 105557 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:52:28,428 105557 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,428 105557 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:52:28,428 105557 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,428 105557 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:52:28,429 105557 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,429 105557 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:52:28,433 105557 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,433 105557 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:52:28,433 105557 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,433 105557 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:52:28,435 105557 DEBUG student odoo.modules.loading: Updating graph with 1 more modules 
+2025-03-25 08:52:28,435 105557 INFO student odoo.modules.loading: loading 15 modules... 
+2025-03-25 08:52:28,435 105557 INFO student odoo.modules.loading: Loading module School_timetable (11/15) 
+2025-03-25 08:52:28,465 105557 DEBUG student odoo.models: Patching res.config.settings.report_footer with translate=True 
+2025-03-25 08:52:28,471 105557 DEBUG student odoo.models: Patching base.document.layout.report_header with translate=True 
+2025-03-25 08:52:28,471 105557 DEBUG student odoo.models: Patching base.document.layout.report_footer with translate=True 
+2025-03-25 08:52:28,471 105557 DEBUG student odoo.models: Patching base.document.layout.company_details with translate=True 
+2025-03-25 08:52:28,473 105557 DEBUG student odoo.models: Patching iap.account.description with translate=True 
+2025-03-25 08:52:28,478 105557 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:52:28,479 105557 WARNING student odoo.fields: Field school.timetable.period.subject_id with unknown comodel_name 'school.subject' 
+2025-03-25 08:52:28,479 105557 WARNING student odoo.fields: Field school.timetable.period.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:52:28,485 105557 INFO student odoo.modules.registry: module School_timetable: creating or updating database tables 
+2025-03-25 08:52:28,488 105557 DEBUG student odoo.schema: Table 'school_timetable': created 
+2025-03-25 08:52:28,493 105557 DEBUG student odoo.schema: Table 'school_timetable_period': created 
+2025-03-25 08:52:28,543 105557 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'class_id' references 'school_class'('id') ON DELETE restrict 
+2025-03-25 08:52:28,548 105557 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'section_id' references 'school_section'('id') ON DELETE set null 
+2025-03-25 08:52:28,551 105557 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:52:28,554 105557 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:52:28,556 105557 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'timetable_id' references 'school_timetable'('id') ON DELETE restrict 
+2025-03-25 08:52:28,558 105557 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:52:28,561 105557 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:52:28,573 105557 INFO student odoo.modules.loading: loading School_timetable/security/ir.model.access.csv 
+2025-03-25 08:52:28,581 105557 DEBUG student odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_model.py:2137 
+2025-03-25 08:52:28,583 105557 ERROR student odoo.sql_db: bad query: b'INSERT INTO "ir_model_access" ("active", "create_date", "create_uid", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (true, \'2025-03-25 08:52:27.558285\', 1, \'access.school.timetable\', false, true, false, true, \'2025-03-25 08:52:27.558285\', 1), (true, \'2025-03-25 08:52:27.558285\', 1, \'access.school.timetable\', true, true, true, true, \'2025-03-25 08:52:27.558285\', 1) RETURNING "id"'
+ERROR: null value in column "model_id" of relation "ir_model_access" violates not-null constraint
+DETAIL:  Failing row contains (168, null, null, 1, 1, access.school.timetable, t, t, t, f, f, 2025-03-25 08:52:27.558285, 2025-03-25 08:52:27.558285).
+ 
+2025-03-25 08:52:28,584 105557 DEBUG student odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_model.py:2137 
+2025-03-25 08:52:28,585 105557 ERROR student odoo.sql_db: bad query: b'INSERT INTO "ir_model_access" ("active", "create_date", "create_uid", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (true, \'2025-03-25 08:52:27.558285\', 1, \'access.school.timetable\', false, true, false, true, \'2025-03-25 08:52:27.558285\', 1) RETURNING "id"'
+ERROR: null value in column "model_id" of relation "ir_model_access" violates not-null constraint
+DETAIL:  Failing row contains (169, null, null, 1, 1, access.school.timetable, t, t, t, f, f, 2025-03-25 08:52:27.558285, 2025-03-25 08:52:27.558285).
+ 
+2025-03-25 08:52:28,586 105557 DEBUG student odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_model.py:2137 
+2025-03-25 08:52:28,587 105557 ERROR student odoo.sql_db: bad query: b'INSERT INTO "ir_model_access" ("active", "create_date", "create_uid", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (true, \'2025-03-25 08:52:27.558285\', 1, \'access.school.timetable\', true, true, true, true, \'2025-03-25 08:52:27.558285\', 1) RETURNING "id"'
+ERROR: null value in column "model_id" of relation "ir_model_access" violates not-null constraint
+DETAIL:  Failing row contains (170, null, null, 1, 1, access.school.timetable, t, t, t, t, t, 2025-03-25 08:52:27.558285, 2025-03-25 08:52:27.558285).
+ 
+2025-03-25 08:52:28,613 105557 DEBUG student odoo.models: Patching res.config.settings.report_footer with translate=True 
+2025-03-25 08:52:28,619 105557 DEBUG student odoo.models: Patching base.document.layout.report_header with translate=True 
+2025-03-25 08:52:28,620 105557 DEBUG student odoo.models: Patching base.document.layout.report_footer with translate=True 
+2025-03-25 08:52:28,620 105557 DEBUG student odoo.models: Patching base.document.layout.company_details with translate=True 
+2025-03-25 08:52:28,623 105557 DEBUG student odoo.models: Patching iap.account.description with translate=True 
+2025-03-25 08:52:28,630 105557 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:52:28,641 105557 WARNING student odoo.modules.loading: Transient module states were reset 
+2025-03-25 08:52:28,648 105557 ERROR student odoo.modules.registry: Failed to load registry 
+2025-03-25 08:52:28,650 105557 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:52:28,652 105557 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:52:28,652 105557 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:52:28,658 105557 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:52:28,658 105557 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:52:28,662 105557 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:52:28,662 105557 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:52:28,663 105557 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:52:28,663 105557 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,663 105557 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:52:28,665 105557 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,665 105557 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:52:28,665 105557 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,665 105557 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:52:28,666 105557 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,666 105557 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:52:28,667 105557 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,668 105557 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:52:28,668 105557 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,668 105557 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:52:28,668 105557 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,668 105557 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:52:28,669 105557 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,669 105557 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:52:28,669 105557 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,669 105557 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:52:28,670 105557 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,670 105557 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:52:28,670 105557 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,670 105557 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:52:28,675 105557 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,675 105557 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:52:28,675 105557 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:52:28,675 105557 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:52:28,706 105557 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:52:28,714 105557 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:52:28,716 105557 INFO student odoo.modules.registry: Registry loaded in 0.068s 
+2025-03-25 08:52:28,719 105557 ERROR student odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2177, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/addons/web/controllers/dataset.py", line 42, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 533, in call_kw
+    result = getattr(recs, name)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 75, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 480, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 604, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 481, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 228, in load_module_graph
+    load_data(env, idref, mode, kind='data', package=package)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 72, in load_data
+    tools.convert_file(env, package.name, filename, idref, mode, noupdate, kind)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 604, in convert_file
+    convert_csv_import(env, module, pathname, fp.read(), idref, mode, noupdate)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 650, in convert_csv_import
+    raise Exception(env._(
+Exception: Module loading School_timetable failed: file School_timetable/security/ir.model.access.csv could not be processed:
+Unknown value 'base.group_user' for boolean field 'Read Access'
+No matching record found for external id 'user' in field 'Model'
+No matching record found for external id 'model_school_timetable' in field 'Group'
+Unknown value 'base.group_system' for boolean field 'Read Access'
+No matching record found for external id 'manager' in field 'Model'
+No matching record found for external id 'model_school_timetable' in field 'Group'
+Missing required value for the field 'Model' (model_id)
+Missing required value for the field 'Model' (model_id)
+2025-03-25 08:52:28,720 105557 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:52:28] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 1732 0.330 0.972
+2025-03-25 08:53:02,285 105557 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2025-03-25 08:53:03,308 105557 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2025-03-25 08:53:52,175 106699 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2025-03-25 08:53:52,176 106699 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2025-03-25 08:53:52,176 106699 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:53:52,176 106699 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2025-03-25 08:53:52,176 106699 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2025-03-25 08:53:52,176 106699 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:53:52,177 106699 INFO ? odoo: Odoo version 18.0 
+2025-03-25 08:53:52,177 106699 INFO ? odoo: Using configuration file at /home/silent/Desktop/OddoTraining/odoo.conf 
+2025-03-25 08:53:52,177 106699 INFO ? odoo: addons paths: ['/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons', '/home/silent/.local/share/Odoo/addons/18.0', '/home/silent/Desktop/OddoTraining/odoo-18/addons', '/home/silent/Desktop/OddoTraining/custom-addons'] 
+2025-03-25 08:53:52,177 106699 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-25 08:53:52,328 106699 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-03-25 08:53:52,345 106699 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-03-25 08:53:52,523 106699 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-03-25 08:53:52,523 106699 DEBUG ? odoo.service.server: Setting signal handlers 
+2025-03-25 08:53:52,527 106699 INFO ? odoo.service.server: HTTP service (werkzeug) running on 192.168.1.31:5000 
+2025-03-25 08:53:52,540 106699 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:53:52,543 106699 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:53:52,543 106699 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:53:52,550 106699 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:53:52,550 106699 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:53:52,552 106699 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Student_Management', defaulting to LGPL-3 
+2025-03-25 08:53:52,553 106699 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Class_Management', defaulting to LGPL-3 
+2025-03-25 08:53:52,560 106699 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:53:52,560 106699 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:53:52,561 106699 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:53:52,562 106699 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:53:52,563 106699 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:53:52,565 106699 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:53:52,565 106699 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:53:52,566 106699 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:53:52,567 106699 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:53:52,580 106699 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.01s, 0 queries 
+2025-03-25 08:53:52,580 106699 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:53:52,769 106699 DEBUG student odoo.modules.loading: Module base_import loaded in 0.19s, 0 queries 
+2025-03-25 08:53:52,769 106699 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:53:52,773 106699 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:53:52,773 106699 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:53:52,776 106699 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:53:52,776 106699 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:53:52,890 106699 DEBUG ? odoo.http: HTTP sessions stored in: /home/silent/.local/share/Odoo/sessions 
+2025-03-25 08:53:52,894 106699 DEBUG student odoo.modules.loading: Module bus loaded in 0.12s, 0 queries 
+2025-03-25 08:53:52,895 106699 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:53:52,897 106699 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:53:52,897 106699 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:53:52,968 106699 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.07s, 0 queries 
+2025-03-25 08:53:52,968 106699 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:53:52,969 106699 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:53:52,969 106699 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:53:52,984 106699 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.02s, 0 queries 
+2025-03-25 08:53:52,984 106699 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:53:52,988 106699 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:53:52,988 106699 INFO student odoo.modules.loading: 14 modules loaded in 0.43s, 0 queries (+0 extra) 
+2025-03-25 08:53:53,026 106699 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:53:53,027 106699 WARNING student odoo.fields: Field school.class.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:53:53,027 106699 WARNING student odoo.fields: Field school.section.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:53:53,039 106699 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:53:53,041 106699 INFO student odoo.modules.registry: Registry loaded in 0.513s 
+2025-03-25 08:53:53,043 106699 DEBUG student odoo.service.server: cron0 started! 
+2025-03-25 08:53:53,044 106699 INFO student odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-25 08:53:53,064 106699 DEBUG student odoo.service.server: cron1 started! 
+2025-03-25 08:53:53,075 106699 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:53:53] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 6 0.003 0.183
+2025-03-25 08:53:53,402 106699 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-25 08:53:54,928 106699 DEBUG ? odoo.modules.module: module __init__.py: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:53:54,934 106699 DEBUG ? odoo.modules.module: module __pycache__: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:53:55,208 106699 DEBUG ? odoo.modules.module: module website_twitter: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:53:55,216 106699 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'School_timetable', defaulting to LGPL-3 
+2025-03-25 08:53:55,216 106699 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-25 08:53:55,220 106699 DEBUG student odoo.api: call base.module.update().onchange({}, [], {'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:53:55,235 106699 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:53:55] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 4 0.002 0.318
+2025-03-25 08:53:56,657 106699 DEBUG student odoo.api: call base.module.update().web_save({}, specification={'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:53:56,672 106699 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:53:56] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 6 0.004 0.020
+2025-03-25 08:53:56,689 106699 DEBUG student odoo.api: call base.module.update(3,).update_module() 
+2025-03-25 08:53:56,691 106699 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-03-25 08:53:57,816 106699 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:53:57] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 2102 0.426 0.708
+2025-03-25 08:53:59,068 106699 DEBUG student odoo.api: call ir.module.module(637,).button_immediate_install() 
+2025-03-25 08:53:59,072 106699 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:53:59,072 106699 INFO student odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-03-25 08:53:59,073 106699 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:53:59,253 106699 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:53:59,256 106699 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:53:59,256 106699 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:53:59,263 106699 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:53:59,263 106699 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:53:59,295 106699 INFO student odoo.modules.loading: updating modules list 
+2025-03-25 08:53:59,296 106699 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-03-25 08:54:00,123 106699 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:54:00,123 106699 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:54:00,123 106699 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:54:00,124 106699 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,124 106699 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:54:00,126 106699 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,126 106699 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:54:00,126 106699 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,126 106699 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:54:00,127 106699 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,127 106699 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:54:00,129 106699 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,129 106699 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:54:00,129 106699 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,129 106699 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:54:00,130 106699 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,130 106699 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:54:00,130 106699 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,130 106699 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:54:00,131 106699 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,131 106699 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:54:00,131 106699 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,131 106699 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:54:00,131 106699 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,131 106699 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:54:00,136 106699 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,136 106699 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:54:00,136 106699 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,136 106699 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:54:00,137 106699 DEBUG student odoo.modules.loading: Updating graph with 1 more modules 
+2025-03-25 08:54:00,137 106699 INFO student odoo.modules.loading: loading 15 modules... 
+2025-03-25 08:54:00,138 106699 INFO student odoo.modules.loading: Loading module School_timetable (11/15) 
+2025-03-25 08:54:00,160 106699 DEBUG student odoo.models: Patching res.config.settings.report_footer with translate=True 
+2025-03-25 08:54:00,166 106699 DEBUG student odoo.models: Patching base.document.layout.report_header with translate=True 
+2025-03-25 08:54:00,166 106699 DEBUG student odoo.models: Patching base.document.layout.report_footer with translate=True 
+2025-03-25 08:54:00,166 106699 DEBUG student odoo.models: Patching base.document.layout.company_details with translate=True 
+2025-03-25 08:54:00,168 106699 DEBUG student odoo.models: Patching iap.account.description with translate=True 
+2025-03-25 08:54:00,174 106699 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:54:00,175 106699 WARNING student odoo.fields: Field school.timetable.period.subject_id with unknown comodel_name 'school.subject' 
+2025-03-25 08:54:00,175 106699 WARNING student odoo.fields: Field school.timetable.period.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:54:00,181 106699 INFO student odoo.modules.registry: module School_timetable: creating or updating database tables 
+2025-03-25 08:54:00,183 106699 DEBUG student odoo.schema: Table 'school_timetable': created 
+2025-03-25 08:54:00,188 106699 DEBUG student odoo.schema: Table 'school_timetable_period': created 
+2025-03-25 08:54:00,217 106699 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'class_id' references 'school_class'('id') ON DELETE restrict 
+2025-03-25 08:54:00,219 106699 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'section_id' references 'school_section'('id') ON DELETE set null 
+2025-03-25 08:54:00,221 106699 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:54:00,223 106699 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:54:00,225 106699 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'timetable_id' references 'school_timetable'('id') ON DELETE restrict 
+2025-03-25 08:54:00,227 106699 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:54:00,229 106699 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:54:00,270 106699 INFO student odoo.modules.loading: loading School_timetable/security/ir.model.access.csv 
+2025-03-25 08:54:00,278 106699 DEBUG student odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_model.py:2137 
+2025-03-25 08:54:00,283 106699 INFO student odoo.modules.loading: loading School_timetable/views/timetable_view.xml 
+2025-03-25 08:54:00,285 106699 DEBUG student odoo.modules.registry: Invalidating templates model caches from create /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py:517 
+2025-03-25 08:54:00,297 106699 DEBUG student odoo.tools.convert: while parsing /home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml:3
+Error while validating view near:
+
+                        <field name="section_id"/>
+                        <field name="day"/>
+                        <field name="subject_id"/>
+                        <field name="teacher_id"/>
+                        <field name="start_time"/>
+
+Field "subject_id" does not exist in model "school.timetable"
+
+View error context:
+{'file': '/home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml',
+ 'line': 8,
+ 'name': 'timetable.form',
+ 'view': ir.ui.view(255,),
+ 'view.model': 'school.timetable',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'view_timetable_form'}
+ 
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 537, in _tag_root
+    f(rec)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 437, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 5512, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 5416, in _load_records_create
+    records = self.create(vals_list)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-9>", line 2, in create
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 496, in _model_create_multi
+    return create(self, arg)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 518, in create
+    result = super(View, self.with_context(ir_ui_view_partial_validation=True)).create(vals_list)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-0>", line 2, in create
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 496, in _model_create_multi
+    return create(self, arg)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 5020, in create
+    records = self._create(data_list)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 5278, in _create
+    records._validate_fields(name for data in data_list for name in data['stored'])
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 1631, in _validate_fields
+    check(self)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 412, in _check_xml
+    raise err.with_traceback(e.__traceback__) from None
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 379, in _check_xml
+    view._validate_view(combined_arch, view.model)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 1469, in _validate_view
+    validator(node, name_manager, node_info)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 1600, in _validate_tag_field
+    self._raise_view_error(msg, node)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 717, in _raise_view_error
+    raise err from from_exception
+odoo.exceptions.ValidationError: Error while validating view near:
+
+                        <field name="section_id"/>
+                        <field name="day"/>
+                        <field name="subject_id"/>
+                        <field name="teacher_id"/>
+                        <field name="start_time"/>
+
+Field "subject_id" does not exist in model "school.timetable"
+2025-03-25 08:54:00,303 106699 WARNING student odoo.modules.loading: Transient module states were reset 
+2025-03-25 08:54:00,307 106699 ERROR student odoo.modules.registry: Failed to load registry 
+2025-03-25 08:54:00,310 106699 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:54:00,312 106699 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:54:00,312 106699 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:54:00,318 106699 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:54:00,318 106699 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:54:00,322 106699 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:54:00,322 106699 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:54:00,322 106699 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:54:00,323 106699 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,323 106699 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:54:00,325 106699 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,325 106699 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:54:00,326 106699 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,326 106699 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:54:00,326 106699 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,326 106699 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:54:00,328 106699 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,328 106699 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:54:00,328 106699 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,328 106699 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:54:00,329 106699 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,329 106699 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:54:00,329 106699 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,330 106699 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:54:00,330 106699 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,330 106699 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:54:00,330 106699 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,330 106699 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:54:00,331 106699 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,331 106699 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:54:00,335 106699 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,335 106699 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:54:00,336 106699 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:54:00,336 106699 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:54:00,368 106699 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:54:00,376 106699 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:54:00,378 106699 INFO student odoo.modules.registry: Registry loaded in 0.071s 
+2025-03-25 08:54:00,381 106699 ERROR student odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2177, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/addons/web/controllers/dataset.py", line 42, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 533, in call_kw
+    result = getattr(recs, name)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 75, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 480, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 604, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 481, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 228, in load_module_graph
+    load_data(env, idref, mode, kind='data', package=package)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 72, in load_data
+    tools.convert_file(env, package.name, filename, idref, mode, noupdate, kind)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 608, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 679, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 594, in parse
+    self._tag_root(de)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 548, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+odoo.tools.convert.ParseError: while parsing /home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml:3
+Error while validating view near:
+
+                        <field name="section_id"/>
+                        <field name="day"/>
+                        <field name="subject_id"/>
+                        <field name="teacher_id"/>
+                        <field name="start_time"/>
+
+Field "subject_id" does not exist in model "school.timetable"
+
+View error context:
+{'file': '/home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml',
+ 'line': 8,
+ 'name': 'timetable.form',
+ 'view': ir.ui.view(255,),
+ 'view.model': 'school.timetable',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'view_timetable_form'}
+
+2025-03-25 08:54:00,382 106699 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:54:00] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 1731 0.333 0.986
+2025-03-25 08:54:53,124 106699 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2025-03-25 08:54:54,146 106699 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2025-03-25 08:55:53,189 106699 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2025-03-25 08:55:55,220 106699 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2025-03-25 08:55:57,760 107850 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2025-03-25 08:55:57,761 107850 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2025-03-25 08:55:57,761 107850 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:55:57,761 107850 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2025-03-25 08:55:57,761 107850 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2025-03-25 08:55:57,761 107850 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:55:57,761 107850 INFO ? odoo: Odoo version 18.0 
+2025-03-25 08:55:57,761 107850 INFO ? odoo: Using configuration file at /home/silent/Desktop/OddoTraining/odoo.conf 
+2025-03-25 08:55:57,761 107850 INFO ? odoo: addons paths: ['/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons', '/home/silent/.local/share/Odoo/addons/18.0', '/home/silent/Desktop/OddoTraining/odoo-18/addons', '/home/silent/Desktop/OddoTraining/custom-addons'] 
+2025-03-25 08:55:57,762 107850 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-25 08:55:57,934 107850 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-03-25 08:55:57,948 107850 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-03-25 08:55:58,112 107850 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-03-25 08:55:58,112 107850 DEBUG ? odoo.service.server: Setting signal handlers 
+2025-03-25 08:55:58,115 107850 INFO ? odoo.service.server: HTTP service (werkzeug) running on 192.168.1.31:5000 
+2025-03-25 08:55:58,128 107850 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:55:58,130 107850 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:55:58,131 107850 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:55:58,138 107850 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:55:58,138 107850 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:55:58,140 107850 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Student_Management', defaulting to LGPL-3 
+2025-03-25 08:55:58,141 107850 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Class_Management', defaulting to LGPL-3 
+2025-03-25 08:55:58,148 107850 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:55:58,149 107850 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:55:58,149 107850 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:55:58,151 107850 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:55:58,151 107850 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:55:58,153 107850 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:55:58,153 107850 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:55:58,154 107850 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:55:58,155 107850 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:55:58,168 107850 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.01s, 0 queries 
+2025-03-25 08:55:58,168 107850 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:55:58,351 107850 DEBUG student odoo.modules.loading: Module base_import loaded in 0.18s, 0 queries 
+2025-03-25 08:55:58,351 107850 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:55:58,354 107850 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:55:58,355 107850 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:55:58,358 107850 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:55:58,358 107850 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:55:58,470 107850 DEBUG student odoo.modules.loading: Module bus loaded in 0.11s, 0 queries 
+2025-03-25 08:55:58,470 107850 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:55:58,472 107850 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:55:58,472 107850 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:55:58,559 107850 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.09s, 0 queries 
+2025-03-25 08:55:58,559 107850 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:55:58,560 107850 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:55:58,560 107850 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:55:58,572 107850 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.01s, 0 queries 
+2025-03-25 08:55:58,572 107850 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:55:58,575 107850 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:55:58,575 107850 INFO student odoo.modules.loading: 14 modules loaded in 0.43s, 0 queries (+0 extra) 
+2025-03-25 08:55:58,610 107850 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:55:58,611 107850 WARNING student odoo.fields: Field school.class.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:55:58,611 107850 WARNING student odoo.fields: Field school.section.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:55:58,621 107850 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:55:58,623 107850 INFO student odoo.modules.registry: Registry loaded in 0.508s 
+2025-03-25 08:55:58,625 107850 DEBUG student odoo.service.server: cron0 started! 
+2025-03-25 08:55:58,626 107850 DEBUG student odoo.service.server: cron1 started! 
+2025-03-25 08:56:01,969 107850 DEBUG ? odoo.http: HTTP sessions stored in: /home/silent/.local/share/Odoo/sessions 
+2025-03-25 08:56:01,976 107850 INFO student odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-25 08:56:02,007 107850 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:02] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 6 0.003 0.036
+2025-03-25 08:56:02,343 107850 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-25 08:56:05,873 107850 DEBUG ? odoo.modules.module: module __init__.py: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:56:05,878 107850 DEBUG ? odoo.modules.module: module __pycache__: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:56:06,156 107850 DEBUG ? odoo.modules.module: module website_twitter: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:56:06,164 107850 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'School_timetable', defaulting to LGPL-3 
+2025-03-25 08:56:06,164 107850 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-25 08:56:06,168 107850 DEBUG student odoo.api: call base.module.update().onchange({}, [], {'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:56:06,183 107850 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:06] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 4 0.002 0.317
+2025-03-25 08:56:07,335 107850 DEBUG student odoo.api: call base.module.update().web_save({}, specification={'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:56:07,349 107850 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:07] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 6 0.004 0.013
+2025-03-25 08:56:07,360 107850 DEBUG student odoo.api: call base.module.update(4,).update_module() 
+2025-03-25 08:56:07,361 107850 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-03-25 08:56:08,475 107850 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:08] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 2102 0.421 0.698
+2025-03-25 08:56:09,180 107850 DEBUG student odoo.api: call ir.module.module(637,).button_immediate_install() 
+2025-03-25 08:56:09,187 107850 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:56:09,187 107850 INFO student odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-03-25 08:56:09,189 107850 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:56:09,368 107850 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:56:09,372 107850 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:56:09,372 107850 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:56:09,379 107850 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:56:09,380 107850 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:09,410 107850 INFO student odoo.modules.loading: updating modules list 
+2025-03-25 08:56:09,412 107850 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-03-25 08:56:10,253 107850 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:56:10,253 107850 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:56:10,253 107850 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:56:10,254 107850 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,254 107850 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:56:10,256 107850 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,256 107850 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:56:10,256 107850 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,256 107850 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:56:10,257 107850 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,257 107850 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:56:10,259 107850 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,259 107850 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:56:10,259 107850 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,259 107850 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:56:10,260 107850 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,260 107850 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:56:10,260 107850 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,260 107850 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:56:10,261 107850 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,261 107850 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:56:10,261 107850 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,261 107850 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:56:10,261 107850 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,261 107850 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:56:10,266 107850 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,266 107850 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:56:10,266 107850 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,267 107850 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:10,268 107850 DEBUG student odoo.modules.loading: Updating graph with 1 more modules 
+2025-03-25 08:56:10,268 107850 INFO student odoo.modules.loading: loading 15 modules... 
+2025-03-25 08:56:10,268 107850 INFO student odoo.modules.loading: Loading module School_timetable (11/15) 
+2025-03-25 08:56:10,291 107850 DEBUG student odoo.models: Patching res.config.settings.report_footer with translate=True 
+2025-03-25 08:56:10,297 107850 DEBUG student odoo.models: Patching base.document.layout.report_header with translate=True 
+2025-03-25 08:56:10,297 107850 DEBUG student odoo.models: Patching base.document.layout.report_footer with translate=True 
+2025-03-25 08:56:10,297 107850 DEBUG student odoo.models: Patching base.document.layout.company_details with translate=True 
+2025-03-25 08:56:10,299 107850 DEBUG student odoo.models: Patching iap.account.description with translate=True 
+2025-03-25 08:56:10,305 107850 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:56:10,306 107850 WARNING student odoo.fields: Field school.timetable.period.subject_id with unknown comodel_name 'school.subject' 
+2025-03-25 08:56:10,306 107850 WARNING student odoo.fields: Field school.timetable.period.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:56:10,312 107850 INFO student odoo.modules.registry: module School_timetable: creating or updating database tables 
+2025-03-25 08:56:10,315 107850 DEBUG student odoo.schema: Table 'school_timetable': created 
+2025-03-25 08:56:10,320 107850 DEBUG student odoo.schema: Table 'school_timetable_period': created 
+2025-03-25 08:56:10,350 107850 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'class_id' references 'school_class'('id') ON DELETE restrict 
+2025-03-25 08:56:10,352 107850 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'section_id' references 'school_section'('id') ON DELETE set null 
+2025-03-25 08:56:10,354 107850 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:56:10,357 107850 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:56:10,359 107850 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'timetable_id' references 'school_timetable'('id') ON DELETE restrict 
+2025-03-25 08:56:10,361 107850 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:56:10,363 107850 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:56:10,404 107850 INFO student odoo.modules.loading: loading School_timetable/security/ir.model.access.csv 
+2025-03-25 08:56:10,411 107850 DEBUG student odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_model.py:2137 
+2025-03-25 08:56:10,416 107850 INFO student odoo.modules.loading: loading School_timetable/views/timetable_view.xml 
+2025-03-25 08:56:10,418 107850 DEBUG student odoo.modules.registry: Invalidating templates model caches from create /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py:517 
+2025-03-25 08:56:10,430 107850 DEBUG student odoo.tools.convert: while parsing /home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml:3
+Error while validating view near:
+
+                            <field name="period_ids">
+                                <tree editable="bottom">
+                                    <field name="start_time"/>
+                                    <field name="end_time"/>
+                                    <field name="subject_id"/>
+
+Field "start_time" does not exist in model "school.timetable"
+
+View error context:
+{'file': '/home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml',
+ 'line': 13,
+ 'name': 'timetable.form',
+ 'view': ir.ui.view(256,),
+ 'view.model': 'school.timetable',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'view_timetable_form'}
+ 
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 537, in _tag_root
+    f(rec)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 437, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 5512, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 5416, in _load_records_create
+    records = self.create(vals_list)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-9>", line 2, in create
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 496, in _model_create_multi
+    return create(self, arg)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 518, in create
+    result = super(View, self.with_context(ir_ui_view_partial_validation=True)).create(vals_list)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-0>", line 2, in create
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 496, in _model_create_multi
+    return create(self, arg)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 5020, in create
+    records = self._create(data_list)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 5278, in _create
+    records._validate_fields(name for data in data_list for name in data['stored'])
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/models.py", line 1631, in _validate_fields
+    check(self)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 412, in _check_xml
+    raise err.with_traceback(e.__traceback__) from None
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 379, in _check_xml
+    view._validate_view(combined_arch, view.model)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 1469, in _validate_view
+    validator(node, name_manager, node_info)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 1600, in _validate_tag_field
+    self._raise_view_error(msg, node)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py", line 717, in _raise_view_error
+    raise err from from_exception
+odoo.exceptions.ValidationError: Error while validating view near:
+
+                            <field name="period_ids">
+                                <tree editable="bottom">
+                                    <field name="start_time"/>
+                                    <field name="end_time"/>
+                                    <field name="subject_id"/>
+
+Field "start_time" does not exist in model "school.timetable"
+2025-03-25 08:56:10,436 107850 WARNING student odoo.modules.loading: Transient module states were reset 
+2025-03-25 08:56:10,442 107850 ERROR student odoo.modules.registry: Failed to load registry 
+2025-03-25 08:56:10,445 107850 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:56:10,447 107850 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:56:10,447 107850 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:56:10,454 107850 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:56:10,454 107850 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:10,458 107850 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:56:10,458 107850 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:56:10,458 107850 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:56:10,458 107850 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,458 107850 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:56:10,460 107850 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,460 107850 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:56:10,461 107850 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,461 107850 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:56:10,461 107850 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,461 107850 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:56:10,463 107850 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,463 107850 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:56:10,463 107850 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,463 107850 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:56:10,464 107850 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,464 107850 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:56:10,465 107850 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,465 107850 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:56:10,465 107850 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,465 107850 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:56:10,465 107850 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,465 107850 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:56:10,466 107850 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,466 107850 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:56:10,470 107850 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,470 107850 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:56:10,471 107850 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:56:10,471 107850 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:10,502 107850 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:56:10,510 107850 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:56:10,513 107850 INFO student odoo.modules.registry: Registry loaded in 0.070s 
+2025-03-25 08:56:10,515 107850 ERROR student odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2177, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/addons/web/controllers/dataset.py", line 42, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 533, in call_kw
+    result = getattr(recs, name)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 75, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 480, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 604, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 481, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 228, in load_module_graph
+    load_data(env, idref, mode, kind='data', package=package)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 72, in load_data
+    tools.convert_file(env, package.name, filename, idref, mode, noupdate, kind)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 608, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 679, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 594, in parse
+    self._tag_root(de)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 548, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+odoo.tools.convert.ParseError: while parsing /home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml:3
+Error while validating view near:
+
+                            <field name="period_ids">
+                                <tree editable="bottom">
+                                    <field name="start_time"/>
+                                    <field name="end_time"/>
+                                    <field name="subject_id"/>
+
+Field "start_time" does not exist in model "school.timetable"
+
+View error context:
+{'file': '/home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml',
+ 'line': 13,
+ 'name': 'timetable.form',
+ 'view': ir.ui.view(256,),
+ 'view.model': 'school.timetable',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'view_timetable_form'}
+
+2025-03-25 08:56:10,517 107850 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:10] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 1731 0.360 0.985
+2025-03-25 08:56:46,991 108384 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2025-03-25 08:56:46,992 108384 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2025-03-25 08:56:46,992 108384 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:56:46,992 108384 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2025-03-25 08:56:46,992 108384 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2025-03-25 08:56:46,992 108384 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:56:46,992 108384 INFO ? odoo: Odoo version 18.0 
+2025-03-25 08:56:46,992 108384 INFO ? odoo: Using configuration file at /home/silent/Desktop/OddoTraining/odoo.conf 
+2025-03-25 08:56:46,992 108384 INFO ? odoo: addons paths: ['/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons', '/home/silent/.local/share/Odoo/addons/18.0', '/home/silent/Desktop/OddoTraining/odoo-18/addons', '/home/silent/Desktop/OddoTraining/custom-addons'] 
+2025-03-25 08:56:46,992 108384 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-25 08:56:47,135 108384 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-03-25 08:56:47,151 108384 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-03-25 08:56:47,327 108384 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-03-25 08:56:47,327 108384 DEBUG ? odoo.service.server: Setting signal handlers 
+2025-03-25 08:56:47,332 108384 INFO ? odoo.service.server: HTTP service (werkzeug) running on 192.168.1.31:5000 
+2025-03-25 08:56:47,347 108384 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:56:47,349 108384 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:56:47,350 108384 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:56:47,358 108384 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:56:47,358 108384 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:47,360 108384 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Student_Management', defaulting to LGPL-3 
+2025-03-25 08:56:47,361 108384 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Class_Management', defaulting to LGPL-3 
+2025-03-25 08:56:47,368 108384 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:56:47,368 108384 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:56:47,368 108384 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:56:47,370 108384 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:47,370 108384 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:56:47,372 108384 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:56:47,372 108384 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:56:47,374 108384 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:47,374 108384 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:56:47,388 108384 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.01s, 0 queries 
+2025-03-25 08:56:47,388 108384 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:56:47,581 108384 DEBUG student odoo.modules.loading: Module base_import loaded in 0.19s, 0 queries 
+2025-03-25 08:56:47,582 108384 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:56:47,586 108384 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:56:47,586 108384 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:56:47,589 108384 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:56:47,589 108384 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:56:47,710 108384 DEBUG student odoo.modules.loading: Module bus loaded in 0.12s, 0 queries 
+2025-03-25 08:56:47,710 108384 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:56:47,712 108384 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:56:47,712 108384 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:56:47,782 108384 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.07s, 0 queries 
+2025-03-25 08:56:47,782 108384 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:56:47,783 108384 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:56:47,783 108384 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:56:47,796 108384 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.01s, 0 queries 
+2025-03-25 08:56:47,796 108384 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:56:47,799 108384 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:56:47,799 108384 INFO student odoo.modules.loading: 14 modules loaded in 0.43s, 0 queries (+0 extra) 
+2025-03-25 08:56:47,833 108384 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:56:47,833 108384 WARNING student odoo.fields: Field school.class.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:56:47,834 108384 WARNING student odoo.fields: Field school.section.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:56:47,845 108384 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:56:47,848 108384 INFO student odoo.modules.registry: Registry loaded in 0.515s 
+2025-03-25 08:56:47,850 108384 DEBUG student odoo.service.server: cron0 started! 
+2025-03-25 08:56:47,850 108384 DEBUG student odoo.service.server: cron1 started! 
+2025-03-25 08:56:49,281 108384 DEBUG ? odoo.http: HTTP sessions stored in: /home/silent/.local/share/Odoo/sessions 
+2025-03-25 08:56:49,292 108384 DEBUG ? odoo.modules.module: module __init__.py: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:56:49,297 108384 DEBUG ? odoo.modules.module: module __pycache__: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:56:49,398 108384 INFO student odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-25 08:56:49,427 108384 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:49] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 6 0.003 0.028
+2025-03-25 08:56:49,607 108384 DEBUG ? odoo.modules.module: module website_twitter: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:56:49,614 108384 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'School_timetable', defaulting to LGPL-3 
+2025-03-25 08:56:49,615 108384 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-25 08:56:49,619 108384 DEBUG student odoo.api: call base.module.update().onchange({}, [], {'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:56:49,634 108384 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:49] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 4 0.002 0.353
+2025-03-25 08:56:49,761 108384 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-25 08:56:50,692 108384 DEBUG student odoo.api: call base.module.update().web_save({}, specification={'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:56:50,708 108384 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:50] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 6 0.005 0.020
+2025-03-25 08:56:50,716 108384 DEBUG student odoo.api: call base.module.update(5,).update_module() 
+2025-03-25 08:56:50,717 108384 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-03-25 08:56:51,822 108384 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:51] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 2102 0.407 0.702
+2025-03-25 08:56:52,494 108384 DEBUG student odoo.api: call ir.module.module(637,).button_immediate_install() 
+2025-03-25 08:56:52,501 108384 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:56:52,501 108384 INFO student odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-03-25 08:56:52,502 108384 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:56:52,680 108384 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:56:52,683 108384 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:56:52,683 108384 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:56:52,691 108384 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:56:52,691 108384 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:52,721 108384 INFO student odoo.modules.loading: updating modules list 
+2025-03-25 08:56:52,723 108384 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-03-25 08:56:53,543 108384 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:56:53,544 108384 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:56:53,544 108384 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:56:53,544 108384 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,544 108384 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:56:53,546 108384 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,546 108384 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:56:53,547 108384 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,547 108384 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:56:53,547 108384 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,547 108384 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:56:53,549 108384 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,549 108384 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:56:53,549 108384 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,550 108384 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:56:53,550 108384 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,550 108384 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:56:53,551 108384 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,551 108384 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:56:53,551 108384 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,551 108384 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:56:53,551 108384 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,551 108384 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:56:53,552 108384 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,552 108384 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:56:53,556 108384 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,556 108384 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:56:53,557 108384 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,557 108384 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:53,558 108384 DEBUG student odoo.modules.loading: Updating graph with 1 more modules 
+2025-03-25 08:56:53,558 108384 INFO student odoo.modules.loading: loading 15 modules... 
+2025-03-25 08:56:53,558 108384 INFO student odoo.modules.loading: Loading module School_timetable (11/15) 
+2025-03-25 08:56:53,580 108384 DEBUG student odoo.models: Patching res.config.settings.report_footer with translate=True 
+2025-03-25 08:56:53,586 108384 DEBUG student odoo.models: Patching base.document.layout.report_header with translate=True 
+2025-03-25 08:56:53,586 108384 DEBUG student odoo.models: Patching base.document.layout.report_footer with translate=True 
+2025-03-25 08:56:53,586 108384 DEBUG student odoo.models: Patching base.document.layout.company_details with translate=True 
+2025-03-25 08:56:53,588 108384 DEBUG student odoo.models: Patching iap.account.description with translate=True 
+2025-03-25 08:56:53,594 108384 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:56:53,595 108384 WARNING student odoo.fields: Field school.timetable.period.subject_id with unknown comodel_name 'school.subject' 
+2025-03-25 08:56:53,595 108384 WARNING student odoo.fields: Field school.timetable.period.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:56:53,601 108384 INFO student odoo.modules.registry: module School_timetable: creating or updating database tables 
+2025-03-25 08:56:53,604 108384 DEBUG student odoo.schema: Table 'school_timetable': created 
+2025-03-25 08:56:53,609 108384 DEBUG student odoo.schema: Table 'school_timetable_period': created 
+2025-03-25 08:56:53,637 108384 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'class_id' references 'school_class'('id') ON DELETE restrict 
+2025-03-25 08:56:53,639 108384 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'section_id' references 'school_section'('id') ON DELETE set null 
+2025-03-25 08:56:53,641 108384 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:56:53,643 108384 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:56:53,645 108384 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'timetable_id' references 'school_timetable'('id') ON DELETE restrict 
+2025-03-25 08:56:53,647 108384 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:56:53,650 108384 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:56:53,691 108384 INFO student odoo.modules.loading: loading School_timetable/security/ir.model.access.csv 
+2025-03-25 08:56:53,698 108384 DEBUG student odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_model.py:2137 
+2025-03-25 08:56:53,702 108384 INFO student odoo.modules.loading: loading School_timetable/views/timetable_view.xml 
+2025-03-25 08:56:53,704 108384 WARNING student odoo.modules.loading: Transient module states were reset 
+2025-03-25 08:56:53,705 108384 ERROR student odoo.modules.registry: Failed to load registry 
+2025-03-25 08:56:53,707 108384 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:56:53,708 108384 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:56:53,708 108384 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:56:53,714 108384 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:56:53,714 108384 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:53,718 108384 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:56:53,718 108384 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:56:53,719 108384 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:56:53,719 108384 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,719 108384 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:56:53,721 108384 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,721 108384 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:56:53,721 108384 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,722 108384 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:56:53,722 108384 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,722 108384 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:56:53,724 108384 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,724 108384 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:56:53,724 108384 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,724 108384 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:56:53,725 108384 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,725 108384 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:56:53,726 108384 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,726 108384 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:56:53,726 108384 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,726 108384 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:56:53,726 108384 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,726 108384 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:56:53,727 108384 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,727 108384 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:56:53,731 108384 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,732 108384 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:56:53,732 108384 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:56:53,732 108384 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:56:53,763 108384 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:56:53,771 108384 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:56:53,773 108384 INFO student odoo.modules.registry: Registry loaded in 0.068s 
+2025-03-25 08:56:53,777 108384 ERROR student odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/service/model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 2177, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_http.py", line 333, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/http.py", line 727, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/addons/web/controllers/dataset.py", line 42, in call_button
+    action = call_kw(request.env[model], method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/api.py", line 533, in call_kw
+    result = getattr(recs, name)(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 75, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 480, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_module.py", line 604, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-env/lib/python3.11/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 481, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 228, in load_module_graph
+    load_data(env, idref, mode, kind='data', package=package)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/modules/loading.py", line 72, in load_data
+    tools.convert_file(env, package.name, filename, idref, mode, noupdate, kind)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 608, in convert_file
+    convert_xml_import(env, module, fp, idref, mode, noupdate)
+  File "/home/silent/Desktop/OddoTraining/odoo-18/odoo/tools/convert.py", line 658, in convert_xml_import
+    doc = etree.parse(xmlfile)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "src/lxml/etree.pyx", line 3541, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 1900, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 1920, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1814, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1204, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 618, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 728, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 657, in lxml.etree._raiseParseError
+  File "/home/silent/Desktop/OddoTraining/custom-addons/School_timetable/views/timetable_view.xml", line 50
+lxml.etree.XMLSyntaxError: Opening and ending tag mismatch: field line 44 and record, line 50, column 14
+2025-03-25 08:56:53,778 108384 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:56:53] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 1719 0.323 0.970
+2025-03-25 08:57:41,672 108912 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2025-03-25 08:57:41,673 108912 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2025-03-25 08:57:41,673 108912 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:57:41,673 108912 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2025-03-25 08:57:41,673 108912 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2025-03-25 08:57:41,673 108912 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2025-03-25 08:57:41,673 108912 INFO ? odoo: Odoo version 18.0 
+2025-03-25 08:57:41,673 108912 INFO ? odoo: Using configuration file at /home/silent/Desktop/OddoTraining/odoo.conf 
+2025-03-25 08:57:41,674 108912 INFO ? odoo: addons paths: ['/home/silent/Desktop/OddoTraining/odoo-18/odoo/addons', '/home/silent/.local/share/Odoo/addons/18.0', '/home/silent/Desktop/OddoTraining/odoo-18/addons', '/home/silent/Desktop/OddoTraining/custom-addons'] 
+2025-03-25 08:57:41,674 108912 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-25 08:57:41,807 108912 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-03-25 08:57:41,822 108912 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-03-25 08:57:41,986 108912 WARNING ? odoo.service.server: 'inotify' module not installed. Code autoreload feature is disabled 
+2025-03-25 08:57:41,986 108912 DEBUG ? odoo.service.server: Setting signal handlers 
+2025-03-25 08:57:41,991 108912 INFO ? odoo.service.server: HTTP service (werkzeug) running on 192.168.1.31:5000 
+2025-03-25 08:57:42,005 108912 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:57:42,008 108912 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:57:42,008 108912 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:57:42,015 108912 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:57:42,015 108912 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:57:42,016 108912 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Student_Management', defaulting to LGPL-3 
+2025-03-25 08:57:42,018 108912 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Class_Management', defaulting to LGPL-3 
+2025-03-25 08:57:42,026 108912 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:57:42,026 108912 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:57:42,026 108912 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:57:42,030 108912 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:57:42,031 108912 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:57:42,034 108912 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:57:42,034 108912 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:57:42,036 108912 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:57:42,036 108912 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:57:42,051 108912 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.01s, 0 queries 
+2025-03-25 08:57:42,051 108912 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:57:42,244 108912 DEBUG student odoo.modules.loading: Module base_import loaded in 0.19s, 0 queries 
+2025-03-25 08:57:42,245 108912 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:57:42,248 108912 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:57:42,248 108912 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:57:42,251 108912 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:57:42,251 108912 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:57:42,369 108912 DEBUG student odoo.modules.loading: Module bus loaded in 0.12s, 0 queries 
+2025-03-25 08:57:42,369 108912 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:57:42,372 108912 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:57:42,372 108912 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:57:42,438 108912 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.07s, 0 queries 
+2025-03-25 08:57:42,438 108912 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:57:42,438 108912 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:57:42,438 108912 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:57:42,451 108912 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.01s, 0 queries 
+2025-03-25 08:57:42,451 108912 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:57:42,454 108912 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:57:42,454 108912 INFO student odoo.modules.loading: 14 modules loaded in 0.43s, 0 queries (+0 extra) 
+2025-03-25 08:57:42,487 108912 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:57:42,488 108912 WARNING student odoo.fields: Field school.class.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:57:42,488 108912 WARNING student odoo.fields: Field school.section.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:57:42,498 108912 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:57:42,502 108912 INFO student odoo.modules.registry: Registry loaded in 0.510s 
+2025-03-25 08:57:42,504 108912 DEBUG student odoo.service.server: cron0 started! 
+2025-03-25 08:57:42,505 108912 DEBUG student odoo.service.server: cron1 started! 
+2025-03-25 08:57:45,405 108912 DEBUG ? odoo.http: HTTP sessions stored in: /home/silent/.local/share/Odoo/sessions 
+2025-03-25 08:57:45,412 108912 INFO student odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-25 08:57:45,443 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:45] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 6 0.003 0.036
+2025-03-25 08:57:45,780 108912 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-25 08:57:46,526 108912 DEBUG ? odoo.modules.module: module __init__.py: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:57:46,531 108912 DEBUG ? odoo.modules.module: module __pycache__: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:57:46,803 108912 DEBUG ? odoo.modules.module: module website_twitter: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2025-03-25 08:57:46,811 108912 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'School_timetable', defaulting to LGPL-3 
+2025-03-25 08:57:46,811 108912 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-25 08:57:46,815 108912 DEBUG student odoo.api: call base.module.update().onchange({}, [], {'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:57:46,830 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:46] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 4 0.002 0.315
+2025-03-25 08:57:48,140 108912 DEBUG student odoo.api: call base.module.update().web_save({}, specification={'updated': {}, 'added': {}, 'state': {}}) 
+2025-03-25 08:57:48,158 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:48] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 6 0.005 0.021
+2025-03-25 08:57:48,168 108912 DEBUG student odoo.api: call base.module.update(6,).update_module() 
+2025-03-25 08:57:48,169 108912 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-03-25 08:57:49,263 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:49] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 2102 0.397 0.702
+2025-03-25 08:57:49,852 108912 DEBUG student odoo.api: call ir.module.module(637,).button_immediate_install() 
+2025-03-25 08:57:49,859 108912 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:57:49,859 108912 INFO student odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-03-25 08:57:49,860 108912 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Timetable Management'] to user admin #2 via 127.0.0.1 
+2025-03-25 08:57:50,033 108912 DEBUG student odoo.modules.registry: Multiprocess load registry signaling: [Registry: 5] [Cache default: 2] [Cache assets: 1] [Cache templates: 1] [Cache routing: 1] [Cache groups: 1] 
+2025-03-25 08:57:50,036 108912 INFO student odoo.modules.loading: loading 1 modules... 
+2025-03-25 08:57:50,036 108912 DEBUG student odoo.modules.loading: Loading module base (1/1) 
+2025-03-25 08:57:50,043 108912 DEBUG student odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2025-03-25 08:57:50,043 108912 INFO student odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:57:50,074 108912 INFO student odoo.modules.loading: updating modules list 
+2025-03-25 08:57:50,075 108912 INFO student odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-03-25 08:57:50,871 108912 DEBUG student odoo.modules.loading: Updating graph with 13 more modules 
+2025-03-25 08:57:50,871 108912 INFO student odoo.modules.loading: loading 14 modules... 
+2025-03-25 08:57:50,871 108912 DEBUG student odoo.modules.loading: Loading module Student_Management (2/14) 
+2025-03-25 08:57:50,872 108912 DEBUG student odoo.modules.loading: Module Student_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,872 108912 DEBUG student odoo.modules.loading: Loading module web (3/14) 
+2025-03-25 08:57:50,874 108912 DEBUG student odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,874 108912 DEBUG student odoo.modules.loading: Loading module Class_Management (4/14) 
+2025-03-25 08:57:50,875 108912 DEBUG student odoo.modules.loading: Module Class_Management loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,875 108912 DEBUG student odoo.modules.loading: Loading module auth_totp (5/14) 
+2025-03-25 08:57:50,875 108912 DEBUG student odoo.modules.loading: Module auth_totp loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,875 108912 DEBUG student odoo.modules.loading: Loading module base_import (6/14) 
+2025-03-25 08:57:50,877 108912 DEBUG student odoo.modules.loading: Module base_import loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,877 108912 DEBUG student odoo.modules.loading: Loading module base_import_module (7/14) 
+2025-03-25 08:57:50,877 108912 DEBUG student odoo.modules.loading: Module base_import_module loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,877 108912 DEBUG student odoo.modules.loading: Loading module base_setup (8/14) 
+2025-03-25 08:57:50,878 108912 DEBUG student odoo.modules.loading: Module base_setup loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,878 108912 DEBUG student odoo.modules.loading: Loading module bus (9/14) 
+2025-03-25 08:57:50,879 108912 DEBUG student odoo.modules.loading: Module bus loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,879 108912 DEBUG student odoo.modules.loading: Loading module web_tour (10/14) 
+2025-03-25 08:57:50,879 108912 DEBUG student odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,879 108912 DEBUG student odoo.modules.loading: Loading module html_editor (11/14) 
+2025-03-25 08:57:50,879 108912 DEBUG student odoo.modules.loading: Module html_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,879 108912 DEBUG student odoo.modules.loading: Loading module iap (12/14) 
+2025-03-25 08:57:50,880 108912 DEBUG student odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,880 108912 DEBUG student odoo.modules.loading: Loading module web_editor (13/14) 
+2025-03-25 08:57:50,884 108912 DEBUG student odoo.modules.loading: Module web_editor loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,884 108912 DEBUG student odoo.modules.loading: Loading module web_unsplash (14/14) 
+2025-03-25 08:57:50,885 108912 DEBUG student odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2025-03-25 08:57:50,885 108912 INFO student odoo.modules.loading: 14 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-25 08:57:50,886 108912 DEBUG student odoo.modules.loading: Updating graph with 1 more modules 
+2025-03-25 08:57:50,886 108912 INFO student odoo.modules.loading: loading 15 modules... 
+2025-03-25 08:57:50,886 108912 INFO student odoo.modules.loading: Loading module School_timetable (11/15) 
+2025-03-25 08:57:50,909 108912 DEBUG student odoo.models: Patching res.config.settings.report_footer with translate=True 
+2025-03-25 08:57:50,915 108912 DEBUG student odoo.models: Patching base.document.layout.report_header with translate=True 
+2025-03-25 08:57:50,915 108912 DEBUG student odoo.models: Patching base.document.layout.report_footer with translate=True 
+2025-03-25 08:57:50,915 108912 DEBUG student odoo.models: Patching base.document.layout.company_details with translate=True 
+2025-03-25 08:57:50,917 108912 DEBUG student odoo.models: Patching iap.account.description with translate=True 
+2025-03-25 08:57:50,923 108912 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:57:50,924 108912 WARNING student odoo.fields: Field school.timetable.period.subject_id with unknown comodel_name 'school.subject' 
+2025-03-25 08:57:50,924 108912 WARNING student odoo.fields: Field school.timetable.period.teacher_id with unknown comodel_name 'teacher.teacher' 
+2025-03-25 08:57:50,931 108912 INFO student odoo.modules.registry: module School_timetable: creating or updating database tables 
+2025-03-25 08:57:50,933 108912 DEBUG student odoo.schema: Table 'school_timetable': created 
+2025-03-25 08:57:50,938 108912 DEBUG student odoo.schema: Table 'school_timetable_period': created 
+2025-03-25 08:57:50,968 108912 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'class_id' references 'school_class'('id') ON DELETE restrict 
+2025-03-25 08:57:50,970 108912 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'section_id' references 'school_section'('id') ON DELETE set null 
+2025-03-25 08:57:50,972 108912 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:57:50,975 108912 DEBUG student odoo.schema: Table 'school_timetable': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:57:50,977 108912 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'timetable_id' references 'school_timetable'('id') ON DELETE restrict 
+2025-03-25 08:57:50,979 108912 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:57:50,981 108912 DEBUG student odoo.schema: Table 'school_timetable_period': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2025-03-25 08:57:51,023 108912 INFO student odoo.modules.loading: loading School_timetable/security/ir.model.access.csv 
+2025-03-25 08:57:51,031 108912 DEBUG student odoo.modules.registry: Invalidating default model caches from call_cache_clearing_methods /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_model.py:2137 
+2025-03-25 08:57:51,036 108912 INFO student odoo.modules.loading: loading School_timetable/views/timetable_view.xml 
+2025-03-25 08:57:51,038 108912 DEBUG student odoo.modules.registry: Invalidating templates model caches from create /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py:517 
+2025-03-25 08:57:51,051 108912 DEBUG student odoo.modules.registry: Invalidating templates model caches from create /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py:517 
+2025-03-25 08:57:51,056 108912 WARNING student odoo.addons.base.models.ir_ui_view: 'kanban-box' is deprecated, define a 'card' template instead 
+2025-03-25 08:57:51,059 108912 DEBUG student odoo.modules.registry: Invalidating default model caches from create /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_actions.py:352 
+2025-03-25 08:57:51,062 108912 DEBUG student odoo.modules.registry: Invalidating default model caches from create /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_actions.py:108 
+2025-03-25 08:57:51,063 108912 DEBUG student odoo.modules.registry: Invalidating default model caches from create /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_menu.py:166 
+2025-03-25 08:57:51,069 108912 DEBUG student odoo.modules.registry: Invalidating default model caches from create /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_menu.py:166 
+2025-03-25 08:57:51,079 108912 WARNING student odoo.modules.loading: The models ['school.timetable.period'] have no access rules in module School_timetable, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+School_timetable.access_school_timetable_period,access_school_timetable_period,School_timetable.model_school_timetable_period,base.group_user,1,0,0,0 
+2025-03-25 08:57:51,087 108912 INFO student odoo.modules.loading: Module School_timetable loaded in 0.20s, 125 queries (+125 other) 
+2025-03-25 08:57:51,087 108912 INFO student odoo.modules.loading: 15 modules loaded in 0.20s, 125 queries (+125 extra) 
+2025-03-25 08:57:51,118 108912 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:57:51,153 108912 WARNING student odoo.fields: Field student.student.roll_number: unknown parameter 'unique', if this is an actual parameter you may want to override the method _valid_field_parameter on the relevant model in order to allow it 
+2025-03-25 08:57:51,177 108912 DEBUG student odoo.models: column web is in the table ir_module_module but not in the corresponding object ir.module.module 
+2025-03-25 08:57:51,183 108912 DEBUG student odoo.models: column password is in the table res_users but not in the corresponding object res.users 
+2025-03-25 08:57:51,183 108912 DEBUG student odoo.models: column totp_secret is in the table res_users but not in the corresponding object res.users 
+2025-03-25 08:57:51,184 108912 DEBUG student odoo.models: column index is in the table res_users_apikeys but not in the corresponding object res.users.apikeys 
+2025-03-25 08:57:51,184 108912 DEBUG student odoo.models: column key is in the table res_users_apikeys but not in the corresponding object res.users.apikeys 
+2025-03-25 08:57:51,188 108912 DEBUG student odoo.models: column index is in the table auth_totp_device but not in the corresponding object auth_totp.device 
+2025-03-25 08:57:51,188 108912 DEBUG student odoo.models: column key is in the table auth_totp_device but not in the corresponding object auth_totp.device 
+2025-03-25 08:57:51,209 108912 DEBUG student odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) will execute at 2025-03-25 08:58:51.193154 
+2025-03-25 08:57:51,222 108912 DEBUG student odoo.modules.registry: Invalidating templates model caches from write /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py:533 
+2025-03-25 08:57:51,224 108912 DEBUG student odoo.modules.registry: Invalidating templates model caches from write /home/silent/Desktop/OddoTraining/odoo-18/odoo/addons/base/models/ir_ui_view.py:533 
+2025-03-25 08:57:51,389 108912 INFO student odoo.modules.loading: Modules loaded. 
+2025-03-25 08:57:51,392 108912 INFO student odoo.modules.registry: Registry changed, signaling through the database 
+2025-03-25 08:57:51,393 108912 INFO student odoo.modules.registry: Registry loaded in 1.373s 
+2025-03-25 08:57:51,394 108912 INFO student odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2025-03-25 08:57:51,398 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 2215 0.470 1.082
+2025-03-25 08:57:51,419 108912 INFO student odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-25 08:57:51,521 108912 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Class_Management', defaulting to LGPL-3 
+2025-03-25 08:57:51,523 108912 WARNING student odoo.modules.module: Missing `license` key in manifest for 'School_timetable', defaulting to LGPL-3 
+2025-03-25 08:57:51,529 108912 WARNING student odoo.modules.module: Missing `license` key in manifest for 'Student_Management', defaulting to LGPL-3 
+2025-03-25 08:57:51,669 108912 WARNING student odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'Odoo'" in template 180. Replace by @t-out 
+2025-03-25 08:57:51,670 108912 WARNING student odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 180. Replace by @t-out 
+2025-03-25 08:57:51,671 108912 WARNING student odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 180. Replace by @t-out 
+2025-03-25 08:57:51,676 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "GET /odoo HTTP/1.1" 200 - 81 0.025 0.233
+2025-03-25 08:57:51,706 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "GET /web/webclient/translations/fafc04ea055d9448d2ceb24dac9cb2d349a97bcc?lang=en_US HTTP/1.1" 200 - 1 0.001 0.006
+2025-03-25 08:57:51,757 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "GET /web/webclient/load_menus/9d673d27f953be0ce0ab63dabee6b3248c37cd0248e99d429b496796115e4aff HTTP/1.1" 200 - 55 0.014 0.046
+2025-03-25 08:57:51,822 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 8 0.011 0.044
+2025-03-25 08:57:51,823 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.007 0.045
+2025-03-25 08:57:51,850 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "POST /web/action/load HTTP/1.1" 200 - 9 0.011 0.032
+2025-03-25 08:57:51,854 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.015
+2025-03-25 08:57:51,864 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 20 0.019 0.044
+2025-03-25 08:57:51,871 108912 DEBUG student odoo.api: call student.student().get_views(options={'action_id': 89, 'embedded_action_id': False, 'embedded_parent_res_id': False, 'load_filters': True, 'toolbar': True}, views=[[False, 'list'], [False, 'form'], [False, 'search']]) 
+2025-03-25 08:57:51,901 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "POST /web/dataset/call_kw/student.student/get_views HTTP/1.1" 200 - 26 0.008 0.025
+2025-03-25 08:57:51,915 108912 DEBUG student odoo.api: call student.student().web_search_read(count_limit=10001, domain=[], limit=80, offset=0, order='', specification={'name': {}, 'roll_number': {}, 'class_id': {'fields': {'display_name': {}}}, 'section_id': {'fields': {'display_name': {}}}}) 
+2025-03-25 08:57:51,917 108912 DEBUG student odoo.api: call res.users(2,).has_group('base.group_allow_export') 
+2025-03-25 08:57:51,918 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.004
+2025-03-25 08:57:51,919 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:51] "POST /web/dataset/call_kw/student.student/web_search_read HTTP/1.1" 200 - 3 0.003 0.005
+2025-03-25 08:57:53,565 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:53] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.009
+2025-03-25 08:57:58,914 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:58] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.017
+2025-03-25 08:57:58,930 108912 DEBUG student odoo.api: call school.timetable().get_views(options={'action_id': 93, 'embedded_action_id': False, 'embedded_parent_res_id': False, 'load_filters': True, 'toolbar': True}, views=[[False, 'form'], [False, 'kanban'], [False, 'search']]) 
+2025-03-25 08:57:58,959 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:58] "POST /web/dataset/call_kw/school.timetable/get_views HTTP/1.1" 200 - 26 0.007 0.025
+2025-03-25 08:57:58,970 108912 DEBUG student odoo.api: call school.timetable().onchange({}, [], {'name': {}, 'class_id': {'fields': {'display_name': {}}}, 'section_id': {'fields': {'display_name': {}}}, 'day': {}, 'period_ids': {'fields': {'id': {}}, 'limit': 40, 'order': ''}, 'display_name': {}}) 
+2025-03-25 08:57:58,972 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:57:58] "POST /web/dataset/call_kw/school.timetable/onchange HTTP/1.1" 200 - 2 0.001 0.004
+2025-03-25 08:58:02,257 108912 DEBUG student odoo.api: call school.timetable().onchange({}, [], {'name': {}, 'class_id': {'fields': {'display_name': {}}}, 'section_id': {'fields': {'display_name': {}}}, 'day': {}, 'period_ids': {'fields': {'id': {}}, 'limit': 40, 'order': ''}, 'display_name': {}}) 
+2025-03-25 08:58:02,259 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:02] "POST /web/dataset/call_kw/school.timetable/onchange HTTP/1.1" 200 - 1 0.001 0.009
+2025-03-25 08:58:09,828 108912 DEBUG student odoo.api: call school.class().name_search(args=[], limit=8, name='', operator='ilike') 
+2025-03-25 08:58:09,834 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:09] "POST /web/dataset/call_kw/school.class/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-03-25 08:58:12,271 108912 DEBUG student odoo.api: call school.class().name_search(args=[], limit=8, name='1', operator='ilike') 
+2025-03-25 08:58:12,277 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:12] "POST /web/dataset/call_kw/school.class/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-03-25 08:58:12,547 108912 DEBUG student odoo.api: call school.class().name_search(args=[], limit=8, name='10', operator='ilike') 
+2025-03-25 08:58:12,553 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:12] "POST /web/dataset/call_kw/school.class/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-03-25 08:58:13,524 108912 DEBUG student odoo.api: call school.class().name_search(args=[], limit=8, name='10', operator='ilike') 
+2025-03-25 08:58:13,528 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:13] "POST /web/dataset/call_kw/school.class/name_search HTTP/1.1" 200 - 3 0.002 0.010
+2025-03-25 08:58:14,178 108912 DEBUG student odoo.api: call school.class().name_search(args=[], limit=8, name='10 A', operator='ilike') 
+2025-03-25 08:58:14,182 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:14] "POST /web/dataset/call_kw/school.class/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-03-25 08:58:15,472 108912 DEBUG student odoo.api: call school.class().name_create('10 A') 
+2025-03-25 08:58:15,488 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:15] "POST /web/dataset/call_kw/school.class/name_create HTTP/1.1" 200 - 5 0.004 0.020
+2025-03-25 08:58:16,908 108912 DEBUG student odoo.api: call school.section().name_search(args=[], limit=8, name='', operator='ilike') 
+2025-03-25 08:58:16,913 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:16] "POST /web/dataset/call_kw/school.section/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-03-25 08:58:18,956 108912 DEBUG student odoo.api: call school.class().name_search(args=[], limit=8, name='', operator='ilike') 
+2025-03-25 08:58:18,962 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:18] "POST /web/dataset/call_kw/school.class/name_search HTTP/1.1" 200 - 3 0.003 0.012
+2025-03-25 08:58:21,137 108912 DEBUG student odoo.api: call school.class().name_search(args=[], limit=8, name='10', operator='ilike') 
+2025-03-25 08:58:21,142 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:21] "POST /web/dataset/call_kw/school.class/name_search HTTP/1.1" 200 - 3 0.003 0.012
+2025-03-25 08:58:21,659 108912 DEBUG student odoo.api: call school.class().name_search(args=[], limit=8, name='10', operator='ilike') 
+2025-03-25 08:58:21,665 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:21] "POST /web/dataset/call_kw/school.class/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-03-25 08:58:23,564 108912 DEBUG student odoo.api: call school.section().name_search(args=[], limit=8, name='', operator='ilike') 
+2025-03-25 08:58:23,568 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:23] "POST /web/dataset/call_kw/school.section/name_search HTTP/1.1" 200 - 3 0.003 0.011
+2025-03-25 08:58:24,996 108912 DEBUG student odoo.api: call school.section().name_search(args=[], limit=8, name='A', operator='ilike') 
+2025-03-25 08:58:25,002 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:25] "POST /web/dataset/call_kw/school.section/name_search HTTP/1.1" 200 - 3 0.003 0.012
+2025-03-25 08:58:39,629 108912 DEBUG student odoo.api: call school.timetable().web_save({'name': 'TT', 'class_id': 1, 'section_id': False, 'day': 'wednesday', 'period_ids': []}, specification={'name': {}, 'class_id': {'fields': {'display_name': {}}}, 'section_id': {'fields': {'display_name': {}}}, 'day': {}, 'period_ids': {'fields': {'id': {}}, 'limit': 40, 'order': ''}, 'display_name': {}}) 
+2025-03-25 08:58:39,635 108912 INFO student odoo.addons.base.models.ir_model: Access Denied by ACLs for operation: read, uid: 2, model: school.timetable.period 
+2025-03-25 08:58:39,643 108912 WARNING student odoo.http: You are not allowed to access 'Timetable Period' (school.timetable.period) records.
+
+No group currently allows this operation.
+
+Contact your administrator to request access if necessary. 
+2025-03-25 08:58:39,644 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:39] "POST /web/dataset/call_kw/school.timetable/web_save HTTP/1.1" 200 - 7 0.005 0.018
+2025-03-25 08:58:42,573 108912 DEBUG ? odoo.service.server: cron0 polling for jobs 
+2025-03-25 08:58:43,585 108912 DEBUG ? odoo.service.server: cron1 polling for jobs 
+2025-03-25 08:58:50,002 108912 DEBUG student odoo.api: call school.timetable().web_save({'name': 'TT', 'class_id': 1, 'section_id': False, 'day': 'wednesday', 'period_ids': []}, specification={'name': {}, 'class_id': {'fields': {'display_name': {}}}, 'section_id': {'fields': {'display_name': {}}}, 'day': {}, 'period_ids': {'fields': {'id': {}}, 'limit': 40, 'order': ''}, 'display_name': {}}) 
+2025-03-25 08:58:50,007 108912 INFO student odoo.addons.base.models.ir_model: Access Denied by ACLs for operation: read, uid: 2, model: school.timetable.period 
+2025-03-25 08:58:50,010 108912 WARNING student odoo.http: You are not allowed to access 'Timetable Period' (school.timetable.period) records.
+
+No group currently allows this operation.
+
+Contact your administrator to request access if necessary. 
+2025-03-25 08:58:50,010 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:50] "POST /web/dataset/call_kw/school.timetable/web_save HTTP/1.1" 200 - 7 0.003 0.009
+2025-03-25 08:58:54,150 108912 DEBUG student odoo.api: call school.timetable().web_save({'name': 'TT', 'class_id': 1, 'section_id': False, 'day': 'wednesday', 'period_ids': []}, specification={'name': {}, 'class_id': {'fields': {'display_name': {}}}, 'section_id': {'fields': {'display_name': {}}}, 'day': {}, 'period_ids': {'fields': {'id': {}}, 'limit': 40, 'order': ''}, 'display_name': {}}) 
+2025-03-25 08:58:54,154 108912 INFO student odoo.addons.base.models.ir_model: Access Denied by ACLs for operation: read, uid: 2, model: school.timetable.period 
+2025-03-25 08:58:54,157 108912 WARNING student odoo.http: You are not allowed to access 'Timetable Period' (school.timetable.period) records.
+
+No group currently allows this operation.
+
+Contact your administrator to request access if necessary. 
+2025-03-25 08:58:54,158 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:54] "POST /web/dataset/call_kw/school.timetable/web_save HTTP/1.1" 200 - 7 0.003 0.008
+2025-03-25 08:58:58,740 108912 DEBUG student odoo.api: call school.timetable().web_save({'name': 'TT', 'class_id': 1, 'section_id': False, 'day': 'wednesday', 'period_ids': []}, specification={'name': {}, 'class_id': {'fields': {'display_name': {}}}, 'section_id': {'fields': {'display_name': {}}}, 'day': {}, 'period_ids': {'fields': {'id': {}}, 'limit': 40, 'order': ''}, 'display_name': {}}) 
+2025-03-25 08:58:58,745 108912 INFO student odoo.addons.base.models.ir_model: Access Denied by ACLs for operation: read, uid: 2, model: school.timetable.period 
+2025-03-25 08:58:58,748 108912 WARNING student odoo.http: You are not allowed to access 'Timetable Period' (school.timetable.period) records.
+
+No group currently allows this operation.
+
+Contact your administrator to request access if necessary. 
+2025-03-25 08:58:58,749 108912 INFO student werkzeug: 127.0.0.1 - - [25/Mar/2025 08:58:58] "POST /web/dataset/call_kw/school.timetable/web_save HTTP/1.1" 200 - 7 0.004 0.011
+2025-03-25 08:59:28,992 108912 INFO student odoo.service.server: Initiating shutdown 
+2025-03-25 08:59:28,992 108912 INFO student odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-03-25 08:59:29,268 108912 DEBUG student odoo.service.server: on_close call <bound method Event.set of <threading.Event at 0x7222a6d27590: unset>> 
+2025-03-25 08:59:29,268 108912 DEBUG student odoo.service.server: on_close call <function _kick_all at 0x7222a6aa2f20> 
+2025-03-25 08:59:29,269 108912 DEBUG student odoo.service.server: current thread: <_MainThread(MainThread, started 125493539385984)> 
+2025-03-25 08:59:29,270 108912 DEBUG student odoo.service.server: process <_MainThread(MainThread, started 125493539385984)> (False) 
+2025-03-25 08:59:29,271 108912 DEBUG student odoo.service.server: process <Thread(odoo.service.cron.cron0, started daemon 125493162542656)> (True) 
+2025-03-25 08:59:29,271 108912 DEBUG student odoo.service.server: process <Thread(odoo.service.cron.cron1, started daemon 125493139473984)> (True) 
+2025-03-25 08:59:29,272 108912 DEBUG student odoo.service.server: process <ImDispatch(odoo.addons.bus.models.bus.Bus, started daemon 125493118502464)> (True) 
+2025-03-25 08:59:29,274 108912 DEBUG student odoo.service.server: process <Thread(odoo.service.http.request.125492959118912, started 125492959118912)> (False) 
+2025-03-25 08:59:29,275 108912 DEBUG student odoo.service.server: join and sleep 
+2025-03-25 08:59:29,377 108912 INFO student odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  

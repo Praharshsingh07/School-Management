@@ -12,7 +12,6 @@
                 "--config=${workspaceFolder}/odoo.conf",
                 "--addons-path=${workspaceFolder}/odoo-18/addons,${workspaceFolder}/custom-addons",
                 "--dev=all",
-                
             ],
             "env": {
                 "PYTHONPATH": "${workspaceFolder}/odoo-18"

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_timetable_form" model="ir.ui.view">
+        <field name="name">timetable.form</field>
+        <field name="model">school.timetable</field>
+        <field name="arch" type="xml">
+            <form string="Timetable">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="class_id"/>
+                        <field name="section_id"/>
+                        <field name="day"/>
+                    </group>
+                    <notebook>
+                        <page string="Periods">
+                            <field name="period_ids"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Kanban View for Periods -->
+    <record id="view_timetable_period_kanban" model="ir.ui.view">
+        <field name="name">timetable.period.kanban</field>
+        <field name="model">school.timetable.period</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_global">
+                            <strong><t t-esc="record.subject_id.raw_value"/></strong>
+                            <div>
+                                <span><t t-esc="record.start_time.raw_value"/> - <t t-esc="record.end_time.raw_value"/></span>
+                                <br/>
+                                <span>Teacher: <t t-esc="record.teacher_id.raw_value"/></span>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <!-- Action for Timetable -->
+    <record id="action_school_timetable" model="ir.actions.act_window">
+        <field name="name">Timetable</field>
+        <field name="res_model">school.timetable</field>
+        <field name="view_mode">form,kanban</field>
+        <field name="help" type="html">
+            <p>Create and manage class timetables.</p>
+        </field>
+    </record>
+
+    <!-- Menu Items -->
+    <menuitem id="menu_school_root" name="School Management"/>
+    <menuitem id="menu_school_timetable" name="Timetable" parent="menu_school_root" action="action_school_timetable"/>
+</odoo>
