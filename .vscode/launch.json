@@ -11,7 +11,7 @@
                 "--config=${workspaceFolder}/odoo.conf",
                 "--addons-path=${workspaceFolder}/odoo-18/addons,${workspaceFolder}/custom-addons",
                 "--dev=all",
-                "-u School"
+                "--log-level=debug"
             ],
             "env": {
                 "PYTHONPATH": "${workspaceFolder}/odoo-18"
