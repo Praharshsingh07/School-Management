@@ -5,6 +5,9 @@
         <field name="model">school.timetable</field>
         <field name="arch" type="xml">
             <form string="Timetable">
+            <header>
+                <button name="action_do_something" type="object" string="Do Something"/>
+            </header>
                 <sheet>
                     <group>
                         <field name="name"/>
@@ -14,7 +17,14 @@
                     </group>
                     <notebook>
                         <page string="Periods">
-                            <field name="period_ids"/>
+                            <field name="period_ids" mode="list">
+                                <list>
+                                    <field name="start_time"/>
+                                    <field name="end_time"/>
+                                    <field name="subject_id"/>
+                                    <field name="teacher_id"/>
+                                </list>
+                            </field>
                         </page>
                     </notebook>
                 </sheet>

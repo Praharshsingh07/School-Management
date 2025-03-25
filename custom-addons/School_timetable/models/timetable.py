@@ -14,8 +14,13 @@ class Timetable(models.Model):
         ('thursday', 'Thursday'),
         ('friday', 'Friday')
     ], string='Day', required=True)
-    period_ids = fields.One2many('school.timetable.period', 'timetable_id', string='Periods', ondelete='cascade')
-
+    period_ids = fields.One2many('school.timetable.period', 'timetable_id', string='Periods')
+    
+    def action_do_something(self):
+        for record in self:
+            record.name = "Something"
+        return True
+    
 
 class TimetablePeriod(models.Model):
     _name = 'school.timetable.period'
@@ -26,5 +31,3 @@ class TimetablePeriod(models.Model):
     end_time = fields.Float(string='End Time', required=True)
     subject_id = fields.Many2one('school.subject', string='Subject', required=True)
     teacher_id = fields.Many2one('teacher.teacher', string='Teacher')
-    subject_name = fields.One2One('school.subject', 'subject_id', string='Subject Name')
-    # teacher_name = fields.One2One('teacher.teacher', 'teacher_id', string='Teacher Name')

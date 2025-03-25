@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
     
         {
             "name": "Run Odoo 18",
@@ -12,6 +13,7 @@
                 "--config=${workspaceFolder}/odoo.conf",
                 "--addons-path=${workspaceFolder}/odoo-18/addons,${workspaceFolder}/custom-addons",
                 "--dev=all",
+                "-uSchool_timetable,Class_Management,Student_Management,attendance_management,school_course,school_teacher"
             ],
             "env": {
                 "PYTHONPATH": "${workspaceFolder}/odoo-18"
