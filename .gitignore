@@ -1,1 +1,36 @@
-/odoo.log
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Odoo log files
+*.log
+odoo.log
+
+# Ignore virtual environment
+/odoo-env/
+/venv/
+
+# Ignore Odoo database and sessions
+filestore/
+sessions/
+*.db
+
+# Ignore compiled assets
+*.egg-info/
+*.manifest
+*.bundle
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Odoo installation files
+/odoo/
+/odoo-18/
+
+# Ignore custom configuration files
+*.conf
+*.crt
+*.key
