@@ -3,62 +3,92 @@
 <!--    Views-->
 <!--    List View-->
     <record id="estate_property_view_list" model="ir.ui.view">
-        <field name="name">real.estate.list</field>
-        <field name="model">real.estate</field>
-        <field name="arch" type="xml">
-            <list string="Properties List">
-                <field name="name" width="15%"/>
-                <field name="post_code" width="15%"/>
-                <field name="bedrooms" width="15%"/>
-                <field name="living_area" width="15%"/>
-                <field name="expected_price" width="15%"/>
-                <field name="selling_price" width="15%"/>
-                <field name="date_availability" width="15%"/>
-            </list>
-        </field>
-    </record>
-
+    <field name="name">real.estate.list</field>
+    <field name="model">real.estate</field>
+    <field name="arch" type="xml">
+        <list string="Properties List">
+            <field name="name" width="15%"/>
+            <field name="post_code" width="15%"/>
+            <field name="bedrooms" width="15%"/>
+            <field name="living_area" width="15%"/>
+            <field name="expected_price" width="15%"/>
+            <field name="selling_price" width="15%"/>
+            <field name="date_availability" width="15%"/>
+            <field name="property_type_id" width="15%"/>  <!-- Add this line -->
+            <field name="tag_ids" widget="many2many_tags" width="15%"/>
+            <field name="status" width="15%" decoration-danger="status == 'rejected'"
+                                            decoration-success="status == 'sold'"
+                                            decoration-primary="status == 'new'"
+                                            decoration-warning="status == 'pending'"/>
+            <button name="action_mark_done" string="Mark as Sold" type="object" class="btn-primary" width="15%"/>
+            <button name="action_cancel" string="Mark as Cancalled" type="object" class="btn-primary" width="15%"/>
+        </list>
+    </field>
+</record>
 <!--    FOrm View-->
     <record id="estate_property_view_form" model="ir.ui.view">
-        <field name="name">real.estate.list</field>
-        <field name="model">real.estate</field>
-        <field name="arch" type="xml">
-            <form string="Properties Form">
-                <sheet>
-                    <h1>
-                        <field name="name"/>
-                    </h1>
-                    <separator string="Property Details"/>
-                    <group >
-                        <group>
-                            <field name="post_code"/>
-                            <field name="date_availability"/>
-
-                        </group>
-                        <group>
-                            <field name="expected_price"/>
-                            <field name="selling_price"/>
-                        </group>
+    <field name="name">real.estate.form</field>
+    <field name="model">real.estate</field>
+    <field name="arch" type="xml">
+        <form string="Properties Form">
+            <sheet>
+                <header>
+                    <field name="status" widget="statusbar" statusbar_visible="new,offer_received,offer_accepted,sold,canceled" width="65%"/>
+                </header>
+                <h1>
+                    <field name="name" width="35%"/>
+                </h1>
+                <separator string="Property Details"/>
+                <group>
+                    <group>
+                        <field name="tag_ids" widget="many2many_tags" options="{'color_field':'color'}"/>
+                        <field name="status" decoration-danger="status == 'rejected'"
+                                            decoration-success="status == 'sold'"
+                                            decoration-warning="status == 'pending'"/>
+                        <field name="total_area"/>
+                        <field name="best_price"/>
+                    </group>
+                    <group>
+                        <field name="post_code"/>
+                        <field name="date_availability"/>
+                        <field name="property_type_id"/>  <!-- Add this line -->
                     </group>
                     <notebook>
-                        <page string="Description">
+                        <page string="Property Details">
+                        <group>
+                            <field name="bedrooms"/>
+                            <field name="living_area"/>
+                            <field name="facades"/>
+                            <field name="garden"/>
+                            <field name="garden_area"/>
+                            <field name="garden_orientation"/>
+                            <field name="garage"/>
+                            <field name="expected_price"/>
+                            <field name="selling_price"/>
+                            <field name="description"/>
+                            <field name="buyer"/>
+                            <field name="salesperson"/>
+                        </group>
+                        </page>
+                        <page string="offers">
                             <group>
-                                <field name="description"/>
-                                <field name="bedrooms"/>
-                                <field name="living_area"/>
-                                <field name="facades"/>
-                                <field name="garage"/>
-                                <field name="garden"/>
-                                <field name="garden_area"/>
-                                <field name="garden_orientation"/>
-                                <field name="status"/>
+                                <field name="offer_ids" widget="one2many_list" string="">
+                                    <list string="">
+                                        <field name="price"/>
+                                        <field name="status" />
+                                        <field name="partner_id"/>
+                                        <!-- <field name="property_id"/> -->
+                                    </list>
+                                </field>
                             </group>
                         </page>
                     </notebook>
-                </sheet>
-            </form>
-        </field>
-    </record>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
+
 
 <!--    Search View-->
     <record id="estate_property_view_search" model="ir.ui.view">
@@ -72,12 +102,53 @@
                     <field name="bedrooms"/>
                     <field name="living_area"/>
                     <field name="facades"/>
-                    <filter string="Available" name="status" domain="['|',('status', '=', 'new'),('status','=','received')]"/>
+                    <filter string="Available" name="available" domain="['|', ('status', '=', 'new'), ('status', '=', 'offer_received')]"/>
                     <filter string="Postcode" name="post_code" context="{'group_by':'post_code'}"/>
                 </search>
             </field>
         </record>
-
+    
+<!--    Property-type-form-->
+    <record id="estate_property_type_form" model="ir.ui.view">
+        <field name="name">real.estate.type.form</field>
+        <field name="model">real.estate.type</field>
+        <field name="arch" type="xml">
+            <form string="Property Type">
+                <sheet>
+                    <h1>
+                        <field name="name"/>
+                    </h1>
+                    <separator string="Property Type Details"/>
+                    <group >
+                        <group>
+                            <field name="name"/>
+                            <field name="sequence" widget="handle"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- propert-tag-details -->
+    <record id="estate_property_tag_form" model="ir.ui.view">
+        <field name="name">real.estate.type.form</field>
+        <field name="model">real.estate.property.tag</field>
+        <field name="arch" type="xml">
+            <form string="Property Type">
+                <sheet>
+                    <h1>
+                        <field name="name"/>
+                    </h1>
+                    <separator string="Property Tag Details"/>
+                    <group >
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
 
 <!--    Actions-->
     <record id="action_estate_property" model="ir.actions.act_window">
@@ -85,5 +156,23 @@
         <field name="res_model">real.estate</field>
         <field name="view_mode">list,form</field>
         <field name="view_id" ref="estate_property_view_list"/>
+        <field name="context">{'search_default_available': 1}</field>
     </record>
+
+    <record id="action_estate_property_type" model="ir.actions.act_window">
+        <field name="name">Property Type</field>
+        <field name="res_model">real.estate.type</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="estate_property_type_form"/>
+    </record>
+
+    <record id="action_estate_property_tags" model="ir.actions.act_window">
+        <field name="name">Property Tags</field>
+        <field name="res_model">real.estate.property.tag</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="estate_property_tag_form"/>
+    </record>
+
+    
+
 </odoo>

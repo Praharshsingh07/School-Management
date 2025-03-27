@@ -10,7 +10,7 @@
         "security/ir.model.access.csv",
         "views/estate_property_views.xml",
         "views/menu.xml",
-        # "views/booking_view.xml",
+        "views/property_warning_wizard.xml",
     ],
     "installable": True,
     "application": True,
