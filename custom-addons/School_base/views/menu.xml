@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_school" name="School">
+       <menuitem id="menu_student" name="Student" action="action_student"/>
+        <menuitem id="menu_teacher" name="Teacher" action="action_teacher"/>
+        <menuitem id="menu_class" name="Class" action="action_class"/>
+        <menuitem id="menu_subject" name="Subject" action="action_subject"/>
+        <menuitem id="menu_attendance" name="Attendance" action="action_attendance"/>
+        <!-- <menuitem 
+            id="menu_school_timetable" 
+            name="Timetable" 
+            action="action_school_timetable"
+            sequence="40"
+            groups="School_base.group_school_admin,School_base.group_school_teacher"/>
+
+        <menuitem 
+            id="menu_school_timetable_student" 
+            name="My Timetable"
+            action="action_school_timetable_student"
+            groups="School_base.group_school_student"
+            sequence="41"/> -->
+    </menuitem>
+</odoo> 

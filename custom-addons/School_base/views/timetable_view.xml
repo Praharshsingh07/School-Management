@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_school_timetable_list" model="ir.ui.view">
+        <field name="name">school.timetable.list</field>
+        <field name="model">school.timetable</field>
+        <field name="arch" type="xml">
+            <list string="Timetable">
+                <field name="class_id"/>
+                <field name="subject_id"/>
+                <field name="teacher_id"/>
+                <field name="day"/>
+                <field name="start_time" widget="float_time"/>
+                <field name="end_time" widget="float_time"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_school_timetable_form" model="ir.ui.view">
+        <field name="name">school.timetable.form</field>
+        <field name="model">school.timetable</field>
+        <field name="arch" type="xml">
+            <form string="Timetable">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="class_id"/>
+                            <field name="subject_id"/>
+                            <field name="teacher_id"/>
+                        </group>
+                        <group>
+                            <field name="day"/>
+                            <field name="start_time" widget="float_time"/>
+                            <field name="end_time" widget="float_time"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_school_timetable_search" model="ir.ui.view">
+        <field name="name">school.timetable.search</field>
+        <field name="model">school.timetable</field>
+        <field name="arch" type="xml">
+            <search string="Timetable Search">
+                <field name="class_id"/>
+                <field name="subject_id"/>
+                <field name="teacher_id"/>
+                <field name="day"/>
+                <filter string="My Class Timetable" 
+                        name="my_timetable" 
+                        domain="[]"
+                        groups="School_base.group_school_student"/>
+                <group expand="0" string="Group By">
+                    <filter string="Day" name="group_by_day" context="{'group_by': 'day'}"/>
+                    <filter string="Class" name="group_by_class" context="{'group_by': 'class_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_school_timetable" model="ir.actions.act_window">
+        <field name="name">Timetable</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">school.timetable</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="view_school_timetable_search"/>
+        <field name="domain">[('class_id', '!=', False)]</field>
+        <field name="context">{'search_default_my_timetable': 1}</field>
+        <field name="groups">School_base.group_school_admin,School_base.group_school_teacher</field>
+    </record>
+
+    <!-- Action for Students -->
+    <record id="action_school_timetable_student" model="ir.actions.act_window">
+        <field name="name">My Timetable</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">school.timetable</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_school_timetable_search"/>
+        <field name="context">
+            {
+                'search_default_my_timetable': 1,
+                'context_student_class_id': self.env['school.student'].get_student_class_id()
+            }
+        </field>
+        <field name="domain">[('class_id', '=', context.get('context_student_class_id'))]</field>
+        <field name="groups">School_base.group_school_student</field>
+    </record>
+</odoo>
