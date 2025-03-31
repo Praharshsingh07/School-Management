@@ -1,5 +1,5 @@
 {
-    'name': 'Hotel_Management',
+    'name': 'Hotel Management',
     'version': '1.0',
     'category': 'Sales',
     'summary': 'Manage hotel rooms, bookings, and customers',
@@ -13,6 +13,5 @@
     ],
     'installable': True,
     'application': True,
-    'auto-install': False,
     'license': 'LGPL-3',
 }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
+    <!-- List View -->
     <record id="view_hotel_customer_tree" model="ir.ui.view">
         <field name="name">hotel.customer.tree</field>
         <field name="model">hotel.customer</field>
@@ -10,6 +11,50 @@
                 <field name="email"/>
                 <field name="phone"/>
             </list>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="view_hotel_customer_form" model="ir.ui.view">
+        <field name="name">hotel.customer.form</field>
+        <field name="model">hotel.customer</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="email"/>
+                        <field name="phone"/>
+                    </group>
+                    <notebook>
+                        <page string="Bookings">
+                            <field name="booking_ids">
+                                <list>
+                                    <field name="room_id"/>
+                                    <field name="check_in"/>
+                                    <field name="check_out"/>
+                                    <field name="state"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Booked Rooms">
+                            <field name="room_ids" mode="kanban">
+                                <kanban>
+                                    <templates>
+                                        <t t-name="kanban-box">
+                                            <div class="oe_kanban_card">
+                                                <div><field name="name"/></div>
+                                                <div>Type: <field name="room_type"/></div>
+                                            </div>
+                                        </t>
+                                    </templates>
+                                </kanban>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
         </field>
     </record>
 </odoo>

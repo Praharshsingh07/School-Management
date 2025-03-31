@@ -5,8 +5,9 @@ class Student(models.Model):
     _name = 'school.student'
     _description = 'Student'
     _rec_name = 'name'
+    _inherit = ['mail.thread', 'mail.activity.mixin']
 
-    name = fields.Char(string="Full Name", required=True)
+    name = fields.Char(string="Full Name", required=True,tracking=True)
     roll_no = fields.Char(string="Roll Number", required=True, unique=True)
     class_id = fields.Many2one('school.class', string="Class", required=True)
     dob = fields.Date(string="Date of Birth")
@@ -69,6 +70,10 @@ class Student(models.Model):
 
         # Create student record
         student = super(Student, self).create(vals)
+        
+        # Send welcome email
+        student._send_welcome_email()
+        
         return student
 
     def write(self, vals):
@@ -101,10 +106,23 @@ class Student(models.Model):
         student = self.env['school.student'].search([('user_id', '=', self.env.user.id)], limit=1)
         return student.class_id.id if student else False
 
-    # Optional: Add a method to send welcome email
     def _send_welcome_email(self):
         """
         Send welcome email to new student with login credentials
         """
-        # Implement email sending logic here
-        pass
+        template = self.env.ref('School_base.email_template_student', raise_if_not_found=False)
+        
+        if not template:
+            return
+        
+        for student in self:
+            template.with_context(
+                {'temp_password':'temp123'}  # Pass only the temporary password in context
+            ).send_mail(
+                student.id,
+                force_send=True,
+                email_values={
+                    'email_to': student.email,
+                    'subject': f'Welcome {student.name}',
+                }
+            )

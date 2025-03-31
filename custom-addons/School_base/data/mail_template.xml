@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Email template for student -->
+        <record id="email_template_student" model="mail.template">
+            <field name="name">Student Registration</field>
+            <field name="model_id" ref="model_school_student"/>
+            <field name="subject">Welcome {{ object.name }}</field>
+            <field name="email_to">{{ object.email }}</field>
+            <field name="body_html" type="html">
+                <div style="margin: 0px; padding: 0px;">
+                    <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                        Dear {{ object.name }},
+                        <br/><br/>
+                        Welcome to our school! Your registration has been confirmed.
+                        <br/><br/>
+                        Your details:<br/>
+                        Roll Number: {{ object.roll_no }}<br/>
+                        Class: {{ object.class_id.name }}<br/>
+                        <br/><br/>
+                        Best regards,<br/>
+                        School Administration
+                    </p>
+                </div>
+            </field>
+            <field name="lang">en_US</field>
+            <field name="auto_delete" eval="True"/>
+        </record>
+    </data>
+</odoo>

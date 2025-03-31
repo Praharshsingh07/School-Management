@@ -8,6 +8,7 @@
         "security/school_security.xml",
         "security/record_rules.xml",
         "security/ir.model.access.csv",
+        "data/mail_template.xml",
         "views/student_view.xml",
         "views/teacher_view.xml",
         "views/class_view.xml",
