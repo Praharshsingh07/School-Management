@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, fields, api
 
 class Teacher(models.Model):
     _name = 'school.teacher'
@@ -12,3 +12,13 @@ class Teacher(models.Model):
     phone = fields.Char(string="Phone")
     joining_date = fields.Date(string="Joining Date")
     active = fields.Boolean(string="Active", default=True)
+    user_id = fields.Many2one('res.users', string='Related User', ondelete='restrict')
+
+    @api.model
+    def create(self, vals):
+        res = super(Teacher, self).create(vals)
+        if res.user_id:
+            res.user_id.write({
+                'groups_id': [(4, self.env.ref('School_base.group_school_teacher').id)]
+            })
+        return res

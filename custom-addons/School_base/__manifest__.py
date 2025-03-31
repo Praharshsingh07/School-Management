@@ -3,9 +3,10 @@
     "summary": "School Base",
     "Author": "Praharsh",
     "version":"1.0",
-    "depends": ["base"],
+    "depends": ["base", "mail"],
     "data": [
         "security/school_security.xml",
+        "security/record_rules.xml",
         "security/ir.model.access.csv",
         "views/student_view.xml",
         "views/teacher_view.xml",

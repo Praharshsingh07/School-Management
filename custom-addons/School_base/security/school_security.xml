@@ -25,6 +25,6 @@
     <record id="group_school_student" model="res.groups">
         <field name="name">School Student</field>
         <field name="category_id" ref="module_category_school_management"/>
-        <field name="implied_ids" eval="[(4, ref('base.group_portal'))]"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
     </record>
 </odoo>

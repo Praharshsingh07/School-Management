@@ -18,6 +18,7 @@
                         <field name="phone"/>
                         <field name="email"/>
                         <field name="active"/>
+                        <field name="user_id" groups="School_base.group_school_admin"/>
                     </group>
                 </sheet>
             </form>
