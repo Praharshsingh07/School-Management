@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="seq_school_student_invoice" model="ir.sequence">
+            <field name="name">Student Invoice</field>
+            <field name="code">school.student.invoice</field>
+            <field name="prefix">SINV/%(year)s/</field>
+            <field name="padding">4</field>
+            <field name="company_id" eval="False"/>
+        </record>
+    </data>
+</odoo> 

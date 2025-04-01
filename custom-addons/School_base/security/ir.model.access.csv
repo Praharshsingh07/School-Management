@@ -21,3 +21,7 @@
 "access_school_timetable_admin","Timetable Access for Admin","model_school_timetable","School_base.group_school_admin",1,1,1,1
 "access_school_timetable_teacher","Timetable Access for Teachers","model_school_timetable","School_base.group_school_teacher",1,0,0,0
 "access_school_timetable_student","Timetable Access for Students","model_school_timetable","School_base.group_school_student",1,0,0,0
+
+"access_school_student_invoice_admin","school.student.invoice.admin","model_school_student_invoice","School_base.group_school_admin",1,1,1,1
+"access_school_student_invoice_teacher","school.student.invoice.teacher","model_school_student_invoice","School_base.group_school_teacher",1,1,1,0
+"access_school_student_invoice_student","school.student.invoice.student","model_school_student_invoice","School_base.group_school_student",1,0,0,0
