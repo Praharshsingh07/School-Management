@@ -1,0 +1,30 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_school_student_admin","Student Access for Admin","model_school_student","School_base.group_school_admin",1,1,1,1
+"access_school_student_teacher","Student Access for Teachers","model_school_student","School_base.group_school_teacher",1,0,0,0
+"access_school_student_student","Student Access for Students","model_school_student","School_base.group_school_student",1,0,0,0
+
+"access_school_teacher_admin","Teacher Access for Admin","model_school_teacher","School_base.group_school_admin",1,1,1,1
+"access_school_teacher_teacher","Teacher Access for Teachers","model_school_teacher","School_base.group_school_teacher",1,1,0,0
+
+"access_school_class_admin","Class Access for Admin","model_school_class","School_base.group_school_admin",1,1,1,1
+"access_school_class_teacher","Class Access for Teachers","model_school_class","School_base.group_school_teacher",1,0,0,0
+"access_school_class_student","Class Access for Students","model_school_class","School_base.group_school_student",1,0,0,0
+
+"access_school_subject_admin","Subject Access for Admin","model_school_subject","School_base.group_school_admin",1,1,1,1
+"access_school_subject_teacher","Subject Access for Teachers","model_school_subject","School_base.group_school_teacher",1,0,0,0
+"access_school_subject_student","Subject Access for Students","model_school_subject","School_base.group_school_student",1,0,0,0
+
+"access_school_attendance_admin","Attendance Admin Access","model_school_attendance","School_base.group_school_admin",1,1,1,1
+"access_school_attendance_teacher","Attendance Teacher Access","model_school_attendance","School_base.group_school_teacher",1,1,1,0
+"access_school_attendance_student","Attendance Student Access","model_school_attendance","School_base.group_school_student",1,0,0,0
+
+"access_school_timetable_admin","Timetable Access for Admin","model_school_timetable","School_base.group_school_admin",1,1,1,1
+"access_school_timetable_teacher","Timetable Access for Teachers","model_school_timetable","School_base.group_school_teacher",1,0,0,0
+"access_school_timetable_student","Timetable Access for Students","model_school_timetable","School_base.group_school_student",1,0,0,0
+
+"access_school_student_invoice_admin","school.student.invoice.admin","model_school_student_invoice","School_base.group_school_admin",1,1,1,1
+"access_school_student_invoice_teacher","school.student.invoice.teacher","model_school_student_invoice","School_base.group_school_teacher",1,1,1,0
+"access_school_student_invoice_student","school.student.invoice.student","model_school_student_invoice","School_base.group_school_student",1,0,0,0
+
+access_mail_template_student,access.mail.template.student,mail.model_mail_template,School_base.group_school_student,1,0,0,0
+access_student_delete_wizard,access.student.delete.wizard,model_student_delete_wizard,School_base.group_school_admin,1,1,1,1

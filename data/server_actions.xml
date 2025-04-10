@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_prevent_export_student" model="ir.actions.server">
+        <field name="name">Prevent Export</field>
+        <field name="model_id" ref="model_school_student"/>
+        <field name="binding_model_id" ref="model_school_student"/>
+        <field name="state">code</field>
+        <field name="code">
+action = {
+    'type': 'ir.actions.client',
+    'tag': 'display_notification',
+    'params': {
+        'title': 'Access Denied',
+        'message': 'Exporting student data is not allowed.',
+        'type': 'warning',
+        'sticky': False,
+    }
+}
+        </field>
+    </record>
+</odoo> 

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="view_student_form" model="ir.ui.view">
+        <field name="name">student.form</field>
+        <field name="model">school.student</field>
+        <field name="arch" type="xml">
+            <form string="Student Form" delete="false">
+            <header>
+                <button name="%(action_student_delete_wizard)d"
+                        type="action"
+                        string="Delete"
+                        class="btn-danger"
+                        context="{'default_student_id': id}"/>
+            </header>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="image" widget="image"/>
+                        <field name="roll_no"/>
+                        <field name="class_id"/>
+                        <field name="dob"/>
+                        <field name="gender"/>
+                        <field name="address"/>
+                        <field name="phone"/>
+                        <field name="email"/>
+                        <field name="active"/>
+                        <field name="user_id" groups="School_base.group_school_admin"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="action_student_mark_inactive" model="ir.actions.server">
+        <field name="name">Deactivate Students</field>
+        <field name="model_id" ref="model_school_student"/>
+        <field name="state">code</field>
+        <field name="code"><![CDATA[
+    records.action_deactivate_students()
+        ]]></field>
+    </record>
+
+
+    <record id="view_student_list" model="ir.ui.view">
+        <field name="name">student.list</field>
+        <field name="model">school.student</field>
+        <field name="arch" type="xml">
+            <list string="Student List">
+            <header>
+                <button name="%(action_student_mark_inactive)d" string="Deactivate" type="action"/>
+            </header>
+                <field name="name"/>
+                <field name="roll_no"/>
+                <field name="class_id"/>
+                <field name="dob"/>
+                <field name="gender"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="action_student" model="ir.actions.act_window">
+        <field name="name">Student</field>
+        <field name="res_model">school.student</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="view_student_list"/>
+    </record>
+
+   
+
+
+    <!-- <record id="view_student_form" model="ir.ui.view">
+    <field name="name">school.student.form</field>
+    <field name="model">school.student</field>
+    <field name="arch" type="xml">
+        <form string="Student">
+            <sheet>
+                <group>
+                    <field name="name"/>
+                    <field name="email"/>
+                </group>
+            </sheet>
+            <div class="oe_chatter">
+                <field name="message_follower_ids"/>
+                <field name="message_ids"/>
+            </div>
+        </form>
+    </field>
+</record> -->
+
+</odoo>

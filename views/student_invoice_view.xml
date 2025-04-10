@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_student_invoice_list" model="ir.ui.view">
+        <field name="name">school.student.invoice.list</field>
+        <field name="model">school.student.invoice</field>
+        <field name="arch" type="xml">
+            <list decoration-info="state == 'draft'" decoration-success="state == 'paid'" decoration-muted="state == 'cancelled'">
+                <field name="name"/>
+                <field name="student_id"/>
+                <field name="class_id"/>
+                <field name="date"/>
+                <field name="due_date"/>
+                <field name="amount"/>
+                <field name="state"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_student_invoice_form" model="ir.ui.view">
+        <field name="name">school.student.invoice.form</field>
+        <field name="model">school.student.invoice</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_post" 
+                            string="Post" 
+                            type="object" 
+                            class="oe_highlight" 
+                            invisible="state != 'draft'"/>
+                    <button name="action_cancel" 
+                            string="Cancel" 
+                            type="object" 
+                            invisible="state not in ('draft', 'posted')"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,posted,paid"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="student_id"/>
+                            <field name="class_id"/>
+                            <field name="amount"/>
+                        </group>
+                        <group>
+                            <field name="date"/>
+                            <field name="due_date"/>
+                            <field name="invoice_id" readonly="1"/>
+                        </group>
+                    </group>
+                </sheet>
+                <!-- <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="message_ids"/>
+                </div> -->
+            </form>
+        </field>
+    </record>
+
+    <record id="action_student_invoice" model="ir.actions.act_window">
+        <field name="name">Student Invoices</field>
+        <field name="res_model">school.student.invoice</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="view_student_invoice_list"/>
+    </record>
+</odoo> 

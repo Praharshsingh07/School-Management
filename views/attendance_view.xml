@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_school_attendance_list" model="ir.ui.view">
+        <field name="name">school.attendance.list</field>
+        <field name="model">school.attendance</field>
+        <field name="arch" type="xml">
+            <list string="Attendance Records" editable="bottom" decoration-success="status == 'present'" decoration-danger="status == 'absent'" decoration-warning="status == 'late'">
+                <field name="student_id"/>
+                <field name="class_id"/>
+                <field name="subject_id"/>
+                <field name="date"/>
+                <field name="status"/>
+                <field name="teacher_id"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_school_attendance_form" model="ir.ui.view">
+        <field name="name">school.attendance.form</field>
+        <field name="model">school.attendance</field>
+        <field name="arch" type="xml">
+            <form string="Attendance Record">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="student_id"/>
+                            <field name="class_id"/>
+                            <field name="subject_id"/>
+                        </group>
+                        <group>
+                            <field name="date"/>
+                            <field name="status"/>
+                            <field name="teacher_id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_school_attendance_search" model="ir.ui.view">
+        <field name="name">school.attendance.search</field>
+        <field name="model">school.attendance</field>
+        <field name="arch" type="xml">
+            <search string="Attendance Search">
+                <field name="student_id"/>
+                <!-- <field name="class_id"/> -->
+                <field name="subject_id"/>
+                <field name="date"/>
+                <filter string="Present" name="present" domain="[('status', '=', 'present')]"/>
+                <filter string="Absent" name="absent" domain="[('status', '=', 'absent')]"/>
+                <filter string="Late" name="late" domain="[('status', '=', 'late')]"/>
+                <group expand="0" string="Group By">
+                    <filter string="Student" name="student" context="{'group_by':'student_id'}"/>
+                    <filter string="Class" name="class" context="{'group_by':'class_id'}"/>
+                    <filter string="Subject" name="subject" context="{'group_by':'subject_id'}"/>
+                    <filter string="Date" name="date" context="{'group_by':'date'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action for Attendance -->
+    <record id="action_attendance" model="ir.actions.act_window">
+        <field name="name">Attendance Records</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">school.attendance</field>
+        <field name="view_mode">list,search</field>
+        <field name="context">{}</field>
+        <field name="view_id" ref="view_school_attendance_list"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No attendance records found.
+            </p>
+        </field>
+    </record>
+</odoo>

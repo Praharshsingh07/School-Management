@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_teacher_form" model="ir.ui.view">
+        <field name="name">teacher.form</field>
+        <field name="model">school.teacher</field>
+        <field name="arch" type="xml">
+            <form string="Teacher Form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="employee_id"/>
+                        <field name="subject_ids" widget="many2many"/>
+                        <field name="email"/>
+                        <field name="phone"/>
+                        <field name="joining_date"/>
+                        <field name="active"/>
+                        <field name="class_id" groups="School_base.group_school_admin"/>
+                        <field name="user_id" groups="School_base.group_school_admin"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_teacher_by_class_kaban" model="ir.ui.view">
+        <field name="name">teacher.by.class.kaban</field>
+        <field name="model">school.teacher</field>
+        <field name="arch" type="xml">
+            <kanban string="Teacher by Class" default_group_by="class_id" byclass="o_kanban_small_column">
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="o_kanban_details">
+                            <strong><field name="name"/></strong>
+                            <div><field name="employee_id"/></div>
+                            <div><field name="subject_ids" widget="many2many_tags"/></div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="view_teacher_list" model="ir.ui.view">
+        <field name="name">teacher.list</field>
+        <field name="model">school.teacher</field>
+        <field name="arch" type="xml">
+            <list string="Teacher List">
+                <field name="name"/>
+                <field name="employee_id"/>
+                <field name="email"/>
+                <field name="phone"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="action_teacher" model="ir.actions.act_window">
+        <field name="name">Teacher</field>
+        <field name="res_model">school.teacher</field>
+        <field name="view_mode">kanban,list,form</field>
+        <field name="view_id" ref="view_teacher_by_class_kaban"/>
+    </record>
+</odoo>

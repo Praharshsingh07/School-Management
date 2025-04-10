@@ -1,0 +1,3198 @@
+<odoo>
+
+    <record id="subject_1" model="school.subject">
+        <field name="name">Subject 1</field>
+        <field name="subject_code">SUB001</field>
+    </record>
+
+    <record id="subject_2" model="school.subject">
+        <field name="name">Subject 2</field>
+        <field name="subject_code">SUB002</field>
+    </record>
+
+    <record id="subject_3" model="school.subject">
+        <field name="name">Subject 3</field>
+        <field name="subject_code">SUB003</field>
+    </record>
+
+    <record id="class_1" model="school.class">
+        <field name="name">Class 1</field>
+        <field name="section">A</field>
+    </record>
+    <record id="class_2" model="school.class">
+        <field name="name">Class 2</field>
+        <field name="section">A</field>
+    </record>
+    <record id="class_3" model="school.class">
+        <field name="name">Class 3</field>
+        <field name="section">A</field>
+    </record>
+    <record id="class_4" model="school.class">
+        <field name="name">Class 4</field>
+        <field name="section">A</field>
+    </record>
+    <record id="class_5" model="school.class">
+        <field name="name">Class 5</field>
+        <field name="section">A</field>
+    </record>
+    <record id="teacher_1" model="school.teacher">
+        <field name="name">Teacher 1</field>
+        <field name="employee_id">T001</field>
+        <field name="email">teacher1@school.com</field>
+        <field name="phone">999000001</field>
+    </record>
+    <record id="teacher_2" model="school.teacher">
+        <field name="name">Teacher 2</field>
+        <field name="employee_id">T002</field>
+        <field name="email">teacher2@school.com</field>
+        <field name="phone">999000002</field>
+    </record>
+    <record id="teacher_3" model="school.teacher">
+        <field name="name">Teacher 3</field>
+        <field name="employee_id">T003</field>
+        <field name="email">teacher3@school.com</field>
+        <field name="phone">999000003</field>
+    </record>
+    <record id="teacher_4" model="school.teacher">
+        <field name="name">Teacher 4</field>
+        <field name="employee_id">T004</field>
+        <field name="email">teacher4@school.com</field>
+        <field name="phone">999000004</field>
+    </record>
+    <record id="teacher_5" model="school.teacher">
+        <field name="name">Teacher 5</field>
+        <field name="employee_id">T005</field>
+        <field name="email">teacher5@school.com</field>
+        <field name="phone">999000005</field>
+    </record>
+    <record id="teacher_6" model="school.teacher">
+        <field name="name">Teacher 6</field>
+        <field name="employee_id">T006</field>
+        <field name="email">teacher6@school.com</field>
+        <field name="phone">999000006</field>
+    </record>
+    <record id="teacher_7" model="school.teacher">
+        <field name="name">Teacher 7</field>
+        <field name="employee_id">T007</field>
+        <field name="email">teacher7@school.com</field>
+        <field name="phone">999000007</field>
+    </record>
+    <record id="teacher_8" model="school.teacher">
+        <field name="name">Teacher 8</field>
+        <field name="employee_id">T008</field>
+        <field name="email">teacher8@school.com</field>
+        <field name="phone">999000008</field>
+    </record>
+    <record id="teacher_9" model="school.teacher">
+        <field name="name">Teacher 9</field>
+        <field name="employee_id">T009</field>
+        <field name="email">teacher9@school.com</field>
+        <field name="phone">999000009</field>
+    </record>
+    <record id="teacher_10" model="school.teacher">
+        <field name="name">Teacher 10</field>
+        <field name="employee_id">T010</field>
+        <field name="email">teacher10@school.com</field>
+        <field name="phone">999000010</field>
+    </record>
+    <record id="student_1" model="school.student">
+        <field name="name">Student 1</field>
+        <field name="roll_no">S001</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student1@school.com</field>
+        <field name="phone">888000001</field>
+    </record>
+    <record id="student_2" model="school.student">
+        <field name="name">Student 2</field>
+        <field name="roll_no">S002</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student2@school.com</field>
+        <field name="phone">888000002</field>
+    </record>
+    <record id="student_3" model="school.student">
+        <field name="name">Student 3</field>
+        <field name="roll_no">S003</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student3@school.com</field>
+        <field name="phone">888000003</field>
+    </record>
+    <record id="student_4" model="school.student">
+        <field name="name">Student 4</field>
+        <field name="roll_no">S004</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student4@school.com</field>
+        <field name="phone">888000004</field>
+    </record>
+    <record id="student_5" model="school.student">
+        <field name="name">Student 5</field>
+        <field name="roll_no">S005</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student5@school.com</field>
+        <field name="phone">888000005</field>
+    </record>
+    <record id="student_6" model="school.student">
+        <field name="name">Student 6</field>
+        <field name="roll_no">S006</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student6@school.com</field>
+        <field name="phone">888000006</field>
+    </record>
+    <record id="student_7" model="school.student">
+        <field name="name">Student 7</field>
+        <field name="roll_no">S007</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student7@school.com</field>
+        <field name="phone">888000007</field>
+    </record>
+    <record id="student_8" model="school.student">
+        <field name="name">Student 8</field>
+        <field name="roll_no">S008</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student8@school.com</field>
+        <field name="phone">888000008</field>
+    </record>
+    <record id="student_9" model="school.student">
+        <field name="name">Student 9</field>
+        <field name="roll_no">S009</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student9@school.com</field>
+        <field name="phone">888000009</field>
+    </record>
+    <record id="student_10" model="school.student">
+        <field name="name">Student 10</field>
+        <field name="roll_no">S010</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student10@school.com</field>
+        <field name="phone">888000010</field>
+    </record>
+    <record id="student_11" model="school.student">
+        <field name="name">Student 11</field>
+        <field name="roll_no">S011</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student11@school.com</field>
+        <field name="phone">888000011</field>
+    </record>
+    <record id="student_12" model="school.student">
+        <field name="name">Student 12</field>
+        <field name="roll_no">S012</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student12@school.com</field>
+        <field name="phone">888000012</field>
+    </record>
+    <record id="student_13" model="school.student">
+        <field name="name">Student 13</field>
+        <field name="roll_no">S013</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student13@school.com</field>
+        <field name="phone">888000013</field>
+    </record>
+    <record id="student_14" model="school.student">
+        <field name="name">Student 14</field>
+        <field name="roll_no">S014</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student14@school.com</field>
+        <field name="phone">888000014</field>
+    </record>
+    <record id="student_15" model="school.student">
+        <field name="name">Student 15</field>
+        <field name="roll_no">S015</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student15@school.com</field>
+        <field name="phone">888000015</field>
+    </record>
+    <record id="student_16" model="school.student">
+        <field name="name">Student 16</field>
+        <field name="roll_no">S016</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student16@school.com</field>
+        <field name="phone">888000016</field>
+    </record>
+    <record id="student_17" model="school.student">
+        <field name="name">Student 17</field>
+        <field name="roll_no">S017</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student17@school.com</field>
+        <field name="phone">888000017</field>
+    </record>
+    <record id="student_18" model="school.student">
+        <field name="name">Student 18</field>
+        <field name="roll_no">S018</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student18@school.com</field>
+        <field name="phone">888000018</field>
+    </record>
+    <record id="student_19" model="school.student">
+        <field name="name">Student 19</field>
+        <field name="roll_no">S019</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student19@school.com</field>
+        <field name="phone">888000019</field>
+    </record>
+    <record id="student_20" model="school.student">
+        <field name="name">Student 20</field>
+        <field name="roll_no">S020</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student20@school.com</field>
+        <field name="phone">888000020</field>
+    </record>
+    <record id="student_21" model="school.student">
+        <field name="name">Student 21</field>
+        <field name="roll_no">S021</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student21@school.com</field>
+        <field name="phone">888000021</field>
+    </record>
+    <record id="student_22" model="school.student">
+        <field name="name">Student 22</field>
+        <field name="roll_no">S022</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student22@school.com</field>
+        <field name="phone">888000022</field>
+    </record>
+    <record id="student_23" model="school.student">
+        <field name="name">Student 23</field>
+        <field name="roll_no">S023</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student23@school.com</field>
+        <field name="phone">888000023</field>
+    </record>
+    <record id="student_24" model="school.student">
+        <field name="name">Student 24</field>
+        <field name="roll_no">S024</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student24@school.com</field>
+        <field name="phone">888000024</field>
+    </record>
+    <record id="student_25" model="school.student">
+        <field name="name">Student 25</field>
+        <field name="roll_no">S025</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student25@school.com</field>
+        <field name="phone">888000025</field>
+    </record>
+    <record id="student_26" model="school.student">
+        <field name="name">Student 26</field>
+        <field name="roll_no">S026</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student26@school.com</field>
+        <field name="phone">888000026</field>
+    </record>
+    <record id="student_27" model="school.student">
+        <field name="name">Student 27</field>
+        <field name="roll_no">S027</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student27@school.com</field>
+        <field name="phone">888000027</field>
+    </record>
+    <record id="student_28" model="school.student">
+        <field name="name">Student 28</field>
+        <field name="roll_no">S028</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student28@school.com</field>
+        <field name="phone">888000028</field>
+    </record>
+    <record id="student_29" model="school.student">
+        <field name="name">Student 29</field>
+        <field name="roll_no">S029</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student29@school.com</field>
+        <field name="phone">888000029</field>
+    </record>
+    <record id="student_30" model="school.student">
+        <field name="name">Student 30</field>
+        <field name="roll_no">S030</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student30@school.com</field>
+        <field name="phone">888000030</field>
+    </record>
+    <record id="student_31" model="school.student">
+        <field name="name">Student 31</field>
+        <field name="roll_no">S031</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student31@school.com</field>
+        <field name="phone">888000031</field>
+    </record>
+    <record id="student_32" model="school.student">
+        <field name="name">Student 32</field>
+        <field name="roll_no">S032</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student32@school.com</field>
+        <field name="phone">888000032</field>
+    </record>
+    <record id="student_33" model="school.student">
+        <field name="name">Student 33</field>
+        <field name="roll_no">S033</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student33@school.com</field>
+        <field name="phone">888000033</field>
+    </record>
+    <record id="student_34" model="school.student">
+        <field name="name">Student 34</field>
+        <field name="roll_no">S034</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student34@school.com</field>
+        <field name="phone">888000034</field>
+    </record>
+    <record id="student_35" model="school.student">
+        <field name="name">Student 35</field>
+        <field name="roll_no">S035</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student35@school.com</field>
+        <field name="phone">888000035</field>
+    </record>
+    <record id="student_36" model="school.student">
+        <field name="name">Student 36</field>
+        <field name="roll_no">S036</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student36@school.com</field>
+        <field name="phone">888000036</field>
+    </record>
+    <record id="student_37" model="school.student">
+        <field name="name">Student 37</field>
+        <field name="roll_no">S037</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student37@school.com</field>
+        <field name="phone">888000037</field>
+    </record>
+    <record id="student_38" model="school.student">
+        <field name="name">Student 38</field>
+        <field name="roll_no">S038</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student38@school.com</field>
+        <field name="phone">888000038</field>
+    </record>
+    <record id="student_39" model="school.student">
+        <field name="name">Student 39</field>
+        <field name="roll_no">S039</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student39@school.com</field>
+        <field name="phone">888000039</field>
+    </record>
+    <record id="student_40" model="school.student">
+        <field name="name">Student 40</field>
+        <field name="roll_no">S040</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student40@school.com</field>
+        <field name="phone">888000040</field>
+    </record>
+    <record id="student_41" model="school.student">
+        <field name="name">Student 41</field>
+        <field name="roll_no">S041</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student41@school.com</field>
+        <field name="phone">888000041</field>
+    </record>
+    <record id="student_42" model="school.student">
+        <field name="name">Student 42</field>
+        <field name="roll_no">S042</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student42@school.com</field>
+        <field name="phone">888000042</field>
+    </record>
+    <record id="student_43" model="school.student">
+        <field name="name">Student 43</field>
+        <field name="roll_no">S043</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student43@school.com</field>
+        <field name="phone">888000043</field>
+    </record>
+    <record id="student_44" model="school.student">
+        <field name="name">Student 44</field>
+        <field name="roll_no">S044</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student44@school.com</field>
+        <field name="phone">888000044</field>
+    </record>
+    <record id="student_45" model="school.student">
+        <field name="name">Student 45</field>
+        <field name="roll_no">S045</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student45@school.com</field>
+        <field name="phone">888000045</field>
+    </record>
+    <record id="student_46" model="school.student">
+        <field name="name">Student 46</field>
+        <field name="roll_no">S046</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student46@school.com</field>
+        <field name="phone">888000046</field>
+    </record>
+    <record id="student_47" model="school.student">
+        <field name="name">Student 47</field>
+        <field name="roll_no">S047</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student47@school.com</field>
+        <field name="phone">888000047</field>
+    </record>
+    <record id="student_48" model="school.student">
+        <field name="name">Student 48</field>
+        <field name="roll_no">S048</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student48@school.com</field>
+        <field name="phone">888000048</field>
+    </record>
+    <record id="student_49" model="school.student">
+        <field name="name">Student 49</field>
+        <field name="roll_no">S049</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student49@school.com</field>
+        <field name="phone">888000049</field>
+    </record>
+    <record id="student_50" model="school.student">
+        <field name="name">Student 50</field>
+        <field name="roll_no">S050</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student50@school.com</field>
+        <field name="phone">888000050</field>
+    </record>
+    <record id="student_51" model="school.student">
+        <field name="name">Student 51</field>
+        <field name="roll_no">S051</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student51@school.com</field>
+        <field name="phone">888000051</field>
+    </record>
+    <record id="student_52" model="school.student">
+        <field name="name">Student 52</field>
+        <field name="roll_no">S052</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student52@school.com</field>
+        <field name="phone">888000052</field>
+    </record>
+    <record id="student_53" model="school.student">
+        <field name="name">Student 53</field>
+        <field name="roll_no">S053</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student53@school.com</field>
+        <field name="phone">888000053</field>
+    </record>
+    <record id="student_54" model="school.student">
+        <field name="name">Student 54</field>
+        <field name="roll_no">S054</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student54@school.com</field>
+        <field name="phone">888000054</field>
+    </record>
+    <record id="student_55" model="school.student">
+        <field name="name">Student 55</field>
+        <field name="roll_no">S055</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student55@school.com</field>
+        <field name="phone">888000055</field>
+    </record>
+    <record id="student_56" model="school.student">
+        <field name="name">Student 56</field>
+        <field name="roll_no">S056</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student56@school.com</field>
+        <field name="phone">888000056</field>
+    </record>
+    <record id="student_57" model="school.student">
+        <field name="name">Student 57</field>
+        <field name="roll_no">S057</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student57@school.com</field>
+        <field name="phone">888000057</field>
+    </record>
+    <record id="student_58" model="school.student">
+        <field name="name">Student 58</field>
+        <field name="roll_no">S058</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student58@school.com</field>
+        <field name="phone">888000058</field>
+    </record>
+    <record id="student_59" model="school.student">
+        <field name="name">Student 59</field>
+        <field name="roll_no">S059</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student59@school.com</field>
+        <field name="phone">888000059</field>
+    </record>
+    <record id="student_60" model="school.student">
+        <field name="name">Student 60</field>
+        <field name="roll_no">S060</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student60@school.com</field>
+        <field name="phone">888000060</field>
+    </record>
+    <record id="student_61" model="school.student">
+        <field name="name">Student 61</field>
+        <field name="roll_no">S061</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student61@school.com</field>
+        <field name="phone">888000061</field>
+    </record>
+    <record id="student_62" model="school.student">
+        <field name="name">Student 62</field>
+        <field name="roll_no">S062</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student62@school.com</field>
+        <field name="phone">888000062</field>
+    </record>
+    <record id="student_63" model="school.student">
+        <field name="name">Student 63</field>
+        <field name="roll_no">S063</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student63@school.com</field>
+        <field name="phone">888000063</field>
+    </record>
+    <record id="student_64" model="school.student">
+        <field name="name">Student 64</field>
+        <field name="roll_no">S064</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student64@school.com</field>
+        <field name="phone">888000064</field>
+    </record>
+    <record id="student_65" model="school.student">
+        <field name="name">Student 65</field>
+        <field name="roll_no">S065</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student65@school.com</field>
+        <field name="phone">888000065</field>
+    </record>
+    <record id="student_66" model="school.student">
+        <field name="name">Student 66</field>
+        <field name="roll_no">S066</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student66@school.com</field>
+        <field name="phone">888000066</field>
+    </record>
+    <record id="student_67" model="school.student">
+        <field name="name">Student 67</field>
+        <field name="roll_no">S067</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student67@school.com</field>
+        <field name="phone">888000067</field>
+    </record>
+    <record id="student_68" model="school.student">
+        <field name="name">Student 68</field>
+        <field name="roll_no">S068</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student68@school.com</field>
+        <field name="phone">888000068</field>
+    </record>
+    <record id="student_69" model="school.student">
+        <field name="name">Student 69</field>
+        <field name="roll_no">S069</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student69@school.com</field>
+        <field name="phone">888000069</field>
+    </record>
+    <record id="student_70" model="school.student">
+        <field name="name">Student 70</field>
+        <field name="roll_no">S070</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student70@school.com</field>
+        <field name="phone">888000070</field>
+    </record>
+    <record id="student_71" model="school.student">
+        <field name="name">Student 71</field>
+        <field name="roll_no">S071</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student71@school.com</field>
+        <field name="phone">888000071</field>
+    </record>
+    <record id="student_72" model="school.student">
+        <field name="name">Student 72</field>
+        <field name="roll_no">S072</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student72@school.com</field>
+        <field name="phone">888000072</field>
+    </record>
+    <record id="student_73" model="school.student">
+        <field name="name">Student 73</field>
+        <field name="roll_no">S073</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student73@school.com</field>
+        <field name="phone">888000073</field>
+    </record>
+    <record id="student_74" model="school.student">
+        <field name="name">Student 74</field>
+        <field name="roll_no">S074</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student74@school.com</field>
+        <field name="phone">888000074</field>
+    </record>
+    <record id="student_75" model="school.student">
+        <field name="name">Student 75</field>
+        <field name="roll_no">S075</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student75@school.com</field>
+        <field name="phone">888000075</field>
+    </record>
+    <record id="student_76" model="school.student">
+        <field name="name">Student 76</field>
+        <field name="roll_no">S076</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student76@school.com</field>
+        <field name="phone">888000076</field>
+    </record>
+    <record id="student_77" model="school.student">
+        <field name="name">Student 77</field>
+        <field name="roll_no">S077</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student77@school.com</field>
+        <field name="phone">888000077</field>
+    </record>
+    <record id="student_78" model="school.student">
+        <field name="name">Student 78</field>
+        <field name="roll_no">S078</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student78@school.com</field>
+        <field name="phone">888000078</field>
+    </record>
+    <record id="student_79" model="school.student">
+        <field name="name">Student 79</field>
+        <field name="roll_no">S079</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student79@school.com</field>
+        <field name="phone">888000079</field>
+    </record>
+    <record id="student_80" model="school.student">
+        <field name="name">Student 80</field>
+        <field name="roll_no">S080</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student80@school.com</field>
+        <field name="phone">888000080</field>
+    </record>
+    <record id="student_81" model="school.student">
+        <field name="name">Student 81</field>
+        <field name="roll_no">S081</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student81@school.com</field>
+        <field name="phone">888000081</field>
+    </record>
+    <record id="student_82" model="school.student">
+        <field name="name">Student 82</field>
+        <field name="roll_no">S082</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student82@school.com</field>
+        <field name="phone">888000082</field>
+    </record>
+    <record id="student_83" model="school.student">
+        <field name="name">Student 83</field>
+        <field name="roll_no">S083</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student83@school.com</field>
+        <field name="phone">888000083</field>
+    </record>
+    <record id="student_84" model="school.student">
+        <field name="name">Student 84</field>
+        <field name="roll_no">S084</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student84@school.com</field>
+        <field name="phone">888000084</field>
+    </record>
+    <record id="student_85" model="school.student">
+        <field name="name">Student 85</field>
+        <field name="roll_no">S085</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student85@school.com</field>
+        <field name="phone">888000085</field>
+    </record>
+    <record id="student_86" model="school.student">
+        <field name="name">Student 86</field>
+        <field name="roll_no">S086</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student86@school.com</field>
+        <field name="phone">888000086</field>
+    </record>
+    <record id="student_87" model="school.student">
+        <field name="name">Student 87</field>
+        <field name="roll_no">S087</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student87@school.com</field>
+        <field name="phone">888000087</field>
+    </record>
+    <record id="student_88" model="school.student">
+        <field name="name">Student 88</field>
+        <field name="roll_no">S088</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student88@school.com</field>
+        <field name="phone">888000088</field>
+    </record>
+    <record id="student_89" model="school.student">
+        <field name="name">Student 89</field>
+        <field name="roll_no">S089</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student89@school.com</field>
+        <field name="phone">888000089</field>
+    </record>
+    <record id="student_90" model="school.student">
+        <field name="name">Student 90</field>
+        <field name="roll_no">S090</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student90@school.com</field>
+        <field name="phone">888000090</field>
+    </record>
+    <record id="student_91" model="school.student">
+        <field name="name">Student 91</field>
+        <field name="roll_no">S091</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student91@school.com</field>
+        <field name="phone">888000091</field>
+    </record>
+    <record id="student_92" model="school.student">
+        <field name="name">Student 92</field>
+        <field name="roll_no">S092</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student92@school.com</field>
+        <field name="phone">888000092</field>
+    </record>
+    <record id="student_93" model="school.student">
+        <field name="name">Student 93</field>
+        <field name="roll_no">S093</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student93@school.com</field>
+        <field name="phone">888000093</field>
+    </record>
+    <record id="student_94" model="school.student">
+        <field name="name">Student 94</field>
+        <field name="roll_no">S094</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student94@school.com</field>
+        <field name="phone">888000094</field>
+    </record>
+    <record id="student_95" model="school.student">
+        <field name="name">Student 95</field>
+        <field name="roll_no">S095</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student95@school.com</field>
+        <field name="phone">888000095</field>
+    </record>
+    <record id="student_96" model="school.student">
+        <field name="name">Student 96</field>
+        <field name="roll_no">S096</field>
+        <field name="class_id" ref="class_2"/>
+        <field name="email">student96@school.com</field>
+        <field name="phone">888000096</field>
+    </record>
+    <record id="student_97" model="school.student">
+        <field name="name">Student 97</field>
+        <field name="roll_no">S097</field>
+        <field name="class_id" ref="class_3"/>
+        <field name="email">student97@school.com</field>
+        <field name="phone">888000097</field>
+    </record>
+    <record id="student_98" model="school.student">
+        <field name="name">Student 98</field>
+        <field name="roll_no">S098</field>
+        <field name="class_id" ref="class_4"/>
+        <field name="email">student98@school.com</field>
+        <field name="phone">888000098</field>
+    </record>
+    <record id="student_99" model="school.student">
+        <field name="name">Student 99</field>
+        <field name="roll_no">S099</field>
+        <field name="class_id" ref="class_5"/>
+        <field name="email">student99@school.com</field>
+        <field name="phone">888000099</field>
+    </record>
+    <record id="student_100" model="school.student">
+        <field name="name">Student 100</field>
+        <field name="roll_no">S100</field>
+        <field name="class_id" ref="class_1"/>
+        <field name="email">student100@school.com</field>
+        <field name="phone">888000100</field>
+    </record>
+    <record id="attendance_1_1" model="school.attendance">
+        <field name="student_id" ref="student_1"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_1_2" model="school.attendance">
+        <field name="student_id" ref="student_1"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_1_3" model="school.attendance">
+        <field name="student_id" ref="student_1"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_2_1" model="school.attendance">
+        <field name="student_id" ref="student_2"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_2_2" model="school.attendance">
+        <field name="student_id" ref="student_2"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_2_3" model="school.attendance">
+        <field name="student_id" ref="student_2"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_3_1" model="school.attendance">
+        <field name="student_id" ref="student_3"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_3_2" model="school.attendance">
+        <field name="student_id" ref="student_3"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_3_3" model="school.attendance">
+        <field name="student_id" ref="student_3"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_4_1" model="school.attendance">
+        <field name="student_id" ref="student_4"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_4_2" model="school.attendance">
+        <field name="student_id" ref="student_4"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_4_3" model="school.attendance">
+        <field name="student_id" ref="student_4"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_5_1" model="school.attendance">
+        <field name="student_id" ref="student_5"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_5_2" model="school.attendance">
+        <field name="student_id" ref="student_5"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_5_3" model="school.attendance">
+        <field name="student_id" ref="student_5"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_6_1" model="school.attendance">
+        <field name="student_id" ref="student_6"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_6_2" model="school.attendance">
+        <field name="student_id" ref="student_6"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_6_3" model="school.attendance">
+        <field name="student_id" ref="student_6"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_7_1" model="school.attendance">
+        <field name="student_id" ref="student_7"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_7_2" model="school.attendance">
+        <field name="student_id" ref="student_7"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_7_3" model="school.attendance">
+        <field name="student_id" ref="student_7"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_8_1" model="school.attendance">
+        <field name="student_id" ref="student_8"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_8_2" model="school.attendance">
+        <field name="student_id" ref="student_8"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_8_3" model="school.attendance">
+        <field name="student_id" ref="student_8"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_9_1" model="school.attendance">
+        <field name="student_id" ref="student_9"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_9_2" model="school.attendance">
+        <field name="student_id" ref="student_9"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_9_3" model="school.attendance">
+        <field name="student_id" ref="student_9"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_10_1" model="school.attendance">
+        <field name="student_id" ref="student_10"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_10_2" model="school.attendance">
+        <field name="student_id" ref="student_10"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_10_3" model="school.attendance">
+        <field name="student_id" ref="student_10"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_11_1" model="school.attendance">
+        <field name="student_id" ref="student_11"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_11_2" model="school.attendance">
+        <field name="student_id" ref="student_11"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_11_3" model="school.attendance">
+        <field name="student_id" ref="student_11"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_12_1" model="school.attendance">
+        <field name="student_id" ref="student_12"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_12_2" model="school.attendance">
+        <field name="student_id" ref="student_12"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_12_3" model="school.attendance">
+        <field name="student_id" ref="student_12"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_13_1" model="school.attendance">
+        <field name="student_id" ref="student_13"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_13_2" model="school.attendance">
+        <field name="student_id" ref="student_13"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_13_3" model="school.attendance">
+        <field name="student_id" ref="student_13"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_14_1" model="school.attendance">
+        <field name="student_id" ref="student_14"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_14_2" model="school.attendance">
+        <field name="student_id" ref="student_14"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_14_3" model="school.attendance">
+        <field name="student_id" ref="student_14"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_15_1" model="school.attendance">
+        <field name="student_id" ref="student_15"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_15_2" model="school.attendance">
+        <field name="student_id" ref="student_15"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_15_3" model="school.attendance">
+        <field name="student_id" ref="student_15"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_16_1" model="school.attendance">
+        <field name="student_id" ref="student_16"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_16_2" model="school.attendance">
+        <field name="student_id" ref="student_16"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_16_3" model="school.attendance">
+        <field name="student_id" ref="student_16"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_17_1" model="school.attendance">
+        <field name="student_id" ref="student_17"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_17_2" model="school.attendance">
+        <field name="student_id" ref="student_17"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_17_3" model="school.attendance">
+        <field name="student_id" ref="student_17"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_18_1" model="school.attendance">
+        <field name="student_id" ref="student_18"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_18_2" model="school.attendance">
+        <field name="student_id" ref="student_18"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_18_3" model="school.attendance">
+        <field name="student_id" ref="student_18"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_19_1" model="school.attendance">
+        <field name="student_id" ref="student_19"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_19_2" model="school.attendance">
+        <field name="student_id" ref="student_19"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_19_3" model="school.attendance">
+        <field name="student_id" ref="student_19"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_20_1" model="school.attendance">
+        <field name="student_id" ref="student_20"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_20_2" model="school.attendance">
+        <field name="student_id" ref="student_20"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_20_3" model="school.attendance">
+        <field name="student_id" ref="student_20"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_21_1" model="school.attendance">
+        <field name="student_id" ref="student_21"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_21_2" model="school.attendance">
+        <field name="student_id" ref="student_21"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_21_3" model="school.attendance">
+        <field name="student_id" ref="student_21"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_22_1" model="school.attendance">
+        <field name="student_id" ref="student_22"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_22_2" model="school.attendance">
+        <field name="student_id" ref="student_22"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_22_3" model="school.attendance">
+        <field name="student_id" ref="student_22"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_23_1" model="school.attendance">
+        <field name="student_id" ref="student_23"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_23_2" model="school.attendance">
+        <field name="student_id" ref="student_23"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_23_3" model="school.attendance">
+        <field name="student_id" ref="student_23"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_24_1" model="school.attendance">
+        <field name="student_id" ref="student_24"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_24_2" model="school.attendance">
+        <field name="student_id" ref="student_24"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_24_3" model="school.attendance">
+        <field name="student_id" ref="student_24"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_25_1" model="school.attendance">
+        <field name="student_id" ref="student_25"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_25_2" model="school.attendance">
+        <field name="student_id" ref="student_25"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_25_3" model="school.attendance">
+        <field name="student_id" ref="student_25"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_26_1" model="school.attendance">
+        <field name="student_id" ref="student_26"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_26_2" model="school.attendance">
+        <field name="student_id" ref="student_26"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_26_3" model="school.attendance">
+        <field name="student_id" ref="student_26"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_27_1" model="school.attendance">
+        <field name="student_id" ref="student_27"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_27_2" model="school.attendance">
+        <field name="student_id" ref="student_27"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_27_3" model="school.attendance">
+        <field name="student_id" ref="student_27"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_28_1" model="school.attendance">
+        <field name="student_id" ref="student_28"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_28_2" model="school.attendance">
+        <field name="student_id" ref="student_28"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_28_3" model="school.attendance">
+        <field name="student_id" ref="student_28"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_29_1" model="school.attendance">
+        <field name="student_id" ref="student_29"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_29_2" model="school.attendance">
+        <field name="student_id" ref="student_29"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_29_3" model="school.attendance">
+        <field name="student_id" ref="student_29"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_30_1" model="school.attendance">
+        <field name="student_id" ref="student_30"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_30_2" model="school.attendance">
+        <field name="student_id" ref="student_30"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_30_3" model="school.attendance">
+        <field name="student_id" ref="student_30"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_31_1" model="school.attendance">
+        <field name="student_id" ref="student_31"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_31_2" model="school.attendance">
+        <field name="student_id" ref="student_31"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_31_3" model="school.attendance">
+        <field name="student_id" ref="student_31"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_32_1" model="school.attendance">
+        <field name="student_id" ref="student_32"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_32_2" model="school.attendance">
+        <field name="student_id" ref="student_32"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_32_3" model="school.attendance">
+        <field name="student_id" ref="student_32"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_33_1" model="school.attendance">
+        <field name="student_id" ref="student_33"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_33_2" model="school.attendance">
+        <field name="student_id" ref="student_33"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_33_3" model="school.attendance">
+        <field name="student_id" ref="student_33"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_34_1" model="school.attendance">
+        <field name="student_id" ref="student_34"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_34_2" model="school.attendance">
+        <field name="student_id" ref="student_34"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_34_3" model="school.attendance">
+        <field name="student_id" ref="student_34"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_35_1" model="school.attendance">
+        <field name="student_id" ref="student_35"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_35_2" model="school.attendance">
+        <field name="student_id" ref="student_35"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_35_3" model="school.attendance">
+        <field name="student_id" ref="student_35"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_36_1" model="school.attendance">
+        <field name="student_id" ref="student_36"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_36_2" model="school.attendance">
+        <field name="student_id" ref="student_36"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_36_3" model="school.attendance">
+        <field name="student_id" ref="student_36"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_37_1" model="school.attendance">
+        <field name="student_id" ref="student_37"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_37_2" model="school.attendance">
+        <field name="student_id" ref="student_37"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_37_3" model="school.attendance">
+        <field name="student_id" ref="student_37"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_38_1" model="school.attendance">
+        <field name="student_id" ref="student_38"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_38_2" model="school.attendance">
+        <field name="student_id" ref="student_38"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_38_3" model="school.attendance">
+        <field name="student_id" ref="student_38"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_39_1" model="school.attendance">
+        <field name="student_id" ref="student_39"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_39_2" model="school.attendance">
+        <field name="student_id" ref="student_39"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_39_3" model="school.attendance">
+        <field name="student_id" ref="student_39"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_40_1" model="school.attendance">
+        <field name="student_id" ref="student_40"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_40_2" model="school.attendance">
+        <field name="student_id" ref="student_40"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_40_3" model="school.attendance">
+        <field name="student_id" ref="student_40"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_41_1" model="school.attendance">
+        <field name="student_id" ref="student_41"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_41_2" model="school.attendance">
+        <field name="student_id" ref="student_41"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_41_3" model="school.attendance">
+        <field name="student_id" ref="student_41"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_42_1" model="school.attendance">
+        <field name="student_id" ref="student_42"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_42_2" model="school.attendance">
+        <field name="student_id" ref="student_42"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_42_3" model="school.attendance">
+        <field name="student_id" ref="student_42"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_43_1" model="school.attendance">
+        <field name="student_id" ref="student_43"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_43_2" model="school.attendance">
+        <field name="student_id" ref="student_43"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_43_3" model="school.attendance">
+        <field name="student_id" ref="student_43"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_44_1" model="school.attendance">
+        <field name="student_id" ref="student_44"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_44_2" model="school.attendance">
+        <field name="student_id" ref="student_44"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_44_3" model="school.attendance">
+        <field name="student_id" ref="student_44"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_45_1" model="school.attendance">
+        <field name="student_id" ref="student_45"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_45_2" model="school.attendance">
+        <field name="student_id" ref="student_45"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_45_3" model="school.attendance">
+        <field name="student_id" ref="student_45"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_46_1" model="school.attendance">
+        <field name="student_id" ref="student_46"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_46_2" model="school.attendance">
+        <field name="student_id" ref="student_46"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_46_3" model="school.attendance">
+        <field name="student_id" ref="student_46"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_47_1" model="school.attendance">
+        <field name="student_id" ref="student_47"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_47_2" model="school.attendance">
+        <field name="student_id" ref="student_47"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_47_3" model="school.attendance">
+        <field name="student_id" ref="student_47"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_48_1" model="school.attendance">
+        <field name="student_id" ref="student_48"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_48_2" model="school.attendance">
+        <field name="student_id" ref="student_48"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_48_3" model="school.attendance">
+        <field name="student_id" ref="student_48"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_49_1" model="school.attendance">
+        <field name="student_id" ref="student_49"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_49_2" model="school.attendance">
+        <field name="student_id" ref="student_49"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_49_3" model="school.attendance">
+        <field name="student_id" ref="student_49"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_50_1" model="school.attendance">
+        <field name="student_id" ref="student_50"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_50_2" model="school.attendance">
+        <field name="student_id" ref="student_50"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_50_3" model="school.attendance">
+        <field name="student_id" ref="student_50"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_51_1" model="school.attendance">
+        <field name="student_id" ref="student_51"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_51_2" model="school.attendance">
+        <field name="student_id" ref="student_51"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_51_3" model="school.attendance">
+        <field name="student_id" ref="student_51"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_52_1" model="school.attendance">
+        <field name="student_id" ref="student_52"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_52_2" model="school.attendance">
+        <field name="student_id" ref="student_52"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_52_3" model="school.attendance">
+        <field name="student_id" ref="student_52"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_53_1" model="school.attendance">
+        <field name="student_id" ref="student_53"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_53_2" model="school.attendance">
+        <field name="student_id" ref="student_53"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_53_3" model="school.attendance">
+        <field name="student_id" ref="student_53"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_54_1" model="school.attendance">
+        <field name="student_id" ref="student_54"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_54_2" model="school.attendance">
+        <field name="student_id" ref="student_54"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_54_3" model="school.attendance">
+        <field name="student_id" ref="student_54"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_55_1" model="school.attendance">
+        <field name="student_id" ref="student_55"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_55_2" model="school.attendance">
+        <field name="student_id" ref="student_55"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_55_3" model="school.attendance">
+        <field name="student_id" ref="student_55"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_56_1" model="school.attendance">
+        <field name="student_id" ref="student_56"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_56_2" model="school.attendance">
+        <field name="student_id" ref="student_56"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_56_3" model="school.attendance">
+        <field name="student_id" ref="student_56"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_57_1" model="school.attendance">
+        <field name="student_id" ref="student_57"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_57_2" model="school.attendance">
+        <field name="student_id" ref="student_57"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_57_3" model="school.attendance">
+        <field name="student_id" ref="student_57"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_58_1" model="school.attendance">
+        <field name="student_id" ref="student_58"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_58_2" model="school.attendance">
+        <field name="student_id" ref="student_58"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_58_3" model="school.attendance">
+        <field name="student_id" ref="student_58"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_59_1" model="school.attendance">
+        <field name="student_id" ref="student_59"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_59_2" model="school.attendance">
+        <field name="student_id" ref="student_59"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_59_3" model="school.attendance">
+        <field name="student_id" ref="student_59"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_60_1" model="school.attendance">
+        <field name="student_id" ref="student_60"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_60_2" model="school.attendance">
+        <field name="student_id" ref="student_60"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_60_3" model="school.attendance">
+        <field name="student_id" ref="student_60"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_61_1" model="school.attendance">
+        <field name="student_id" ref="student_61"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_61_2" model="school.attendance">
+        <field name="student_id" ref="student_61"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_61_3" model="school.attendance">
+        <field name="student_id" ref="student_61"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_62_1" model="school.attendance">
+        <field name="student_id" ref="student_62"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_62_2" model="school.attendance">
+        <field name="student_id" ref="student_62"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_62_3" model="school.attendance">
+        <field name="student_id" ref="student_62"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_63_1" model="school.attendance">
+        <field name="student_id" ref="student_63"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_63_2" model="school.attendance">
+        <field name="student_id" ref="student_63"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_63_3" model="school.attendance">
+        <field name="student_id" ref="student_63"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_64_1" model="school.attendance">
+        <field name="student_id" ref="student_64"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_64_2" model="school.attendance">
+        <field name="student_id" ref="student_64"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_64_3" model="school.attendance">
+        <field name="student_id" ref="student_64"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_65_1" model="school.attendance">
+        <field name="student_id" ref="student_65"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_65_2" model="school.attendance">
+        <field name="student_id" ref="student_65"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_65_3" model="school.attendance">
+        <field name="student_id" ref="student_65"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_66_1" model="school.attendance">
+        <field name="student_id" ref="student_66"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_66_2" model="school.attendance">
+        <field name="student_id" ref="student_66"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_66_3" model="school.attendance">
+        <field name="student_id" ref="student_66"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_67_1" model="school.attendance">
+        <field name="student_id" ref="student_67"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_67_2" model="school.attendance">
+        <field name="student_id" ref="student_67"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_67_3" model="school.attendance">
+        <field name="student_id" ref="student_67"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_68_1" model="school.attendance">
+        <field name="student_id" ref="student_68"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_68_2" model="school.attendance">
+        <field name="student_id" ref="student_68"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_68_3" model="school.attendance">
+        <field name="student_id" ref="student_68"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_69_1" model="school.attendance">
+        <field name="student_id" ref="student_69"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_69_2" model="school.attendance">
+        <field name="student_id" ref="student_69"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_69_3" model="school.attendance">
+        <field name="student_id" ref="student_69"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_70_1" model="school.attendance">
+        <field name="student_id" ref="student_70"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_70_2" model="school.attendance">
+        <field name="student_id" ref="student_70"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_70_3" model="school.attendance">
+        <field name="student_id" ref="student_70"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_71_1" model="school.attendance">
+        <field name="student_id" ref="student_71"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_71_2" model="school.attendance">
+        <field name="student_id" ref="student_71"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_71_3" model="school.attendance">
+        <field name="student_id" ref="student_71"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_72_1" model="school.attendance">
+        <field name="student_id" ref="student_72"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_72_2" model="school.attendance">
+        <field name="student_id" ref="student_72"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_72_3" model="school.attendance">
+        <field name="student_id" ref="student_72"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_73_1" model="school.attendance">
+        <field name="student_id" ref="student_73"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_73_2" model="school.attendance">
+        <field name="student_id" ref="student_73"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_73_3" model="school.attendance">
+        <field name="student_id" ref="student_73"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_74_1" model="school.attendance">
+        <field name="student_id" ref="student_74"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_74_2" model="school.attendance">
+        <field name="student_id" ref="student_74"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_74_3" model="school.attendance">
+        <field name="student_id" ref="student_74"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_75_1" model="school.attendance">
+        <field name="student_id" ref="student_75"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_75_2" model="school.attendance">
+        <field name="student_id" ref="student_75"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_75_3" model="school.attendance">
+        <field name="student_id" ref="student_75"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_76_1" model="school.attendance">
+        <field name="student_id" ref="student_76"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_76_2" model="school.attendance">
+        <field name="student_id" ref="student_76"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_76_3" model="school.attendance">
+        <field name="student_id" ref="student_76"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_77_1" model="school.attendance">
+        <field name="student_id" ref="student_77"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_77_2" model="school.attendance">
+        <field name="student_id" ref="student_77"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_77_3" model="school.attendance">
+        <field name="student_id" ref="student_77"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_78_1" model="school.attendance">
+        <field name="student_id" ref="student_78"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_78_2" model="school.attendance">
+        <field name="student_id" ref="student_78"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_78_3" model="school.attendance">
+        <field name="student_id" ref="student_78"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_79_1" model="school.attendance">
+        <field name="student_id" ref="student_79"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_79_2" model="school.attendance">
+        <field name="student_id" ref="student_79"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_79_3" model="school.attendance">
+        <field name="student_id" ref="student_79"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_80_1" model="school.attendance">
+        <field name="student_id" ref="student_80"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_80_2" model="school.attendance">
+        <field name="student_id" ref="student_80"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_80_3" model="school.attendance">
+        <field name="student_id" ref="student_80"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_81_1" model="school.attendance">
+        <field name="student_id" ref="student_81"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_81_2" model="school.attendance">
+        <field name="student_id" ref="student_81"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_81_3" model="school.attendance">
+        <field name="student_id" ref="student_81"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_82_1" model="school.attendance">
+        <field name="student_id" ref="student_82"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_82_2" model="school.attendance">
+        <field name="student_id" ref="student_82"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_82_3" model="school.attendance">
+        <field name="student_id" ref="student_82"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_83_1" model="school.attendance">
+        <field name="student_id" ref="student_83"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_83_2" model="school.attendance">
+        <field name="student_id" ref="student_83"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_83_3" model="school.attendance">
+        <field name="student_id" ref="student_83"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_84_1" model="school.attendance">
+        <field name="student_id" ref="student_84"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_84_2" model="school.attendance">
+        <field name="student_id" ref="student_84"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_84_3" model="school.attendance">
+        <field name="student_id" ref="student_84"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_85_1" model="school.attendance">
+        <field name="student_id" ref="student_85"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_85_2" model="school.attendance">
+        <field name="student_id" ref="student_85"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_85_3" model="school.attendance">
+        <field name="student_id" ref="student_85"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_86_1" model="school.attendance">
+        <field name="student_id" ref="student_86"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_86_2" model="school.attendance">
+        <field name="student_id" ref="student_86"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_86_3" model="school.attendance">
+        <field name="student_id" ref="student_86"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_87_1" model="school.attendance">
+        <field name="student_id" ref="student_87"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_87_2" model="school.attendance">
+        <field name="student_id" ref="student_87"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_87_3" model="school.attendance">
+        <field name="student_id" ref="student_87"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_88_1" model="school.attendance">
+        <field name="student_id" ref="student_88"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_88_2" model="school.attendance">
+        <field name="student_id" ref="student_88"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_88_3" model="school.attendance">
+        <field name="student_id" ref="student_88"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_89_1" model="school.attendance">
+        <field name="student_id" ref="student_89"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_89_2" model="school.attendance">
+        <field name="student_id" ref="student_89"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_89_3" model="school.attendance">
+        <field name="student_id" ref="student_89"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_90_1" model="school.attendance">
+        <field name="student_id" ref="student_90"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_90_2" model="school.attendance">
+        <field name="student_id" ref="student_90"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_90_3" model="school.attendance">
+        <field name="student_id" ref="student_90"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_91_1" model="school.attendance">
+        <field name="student_id" ref="student_91"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_91_2" model="school.attendance">
+        <field name="student_id" ref="student_91"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_91_3" model="school.attendance">
+        <field name="student_id" ref="student_91"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_92_1" model="school.attendance">
+        <field name="student_id" ref="student_92"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_92_2" model="school.attendance">
+        <field name="student_id" ref="student_92"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_92_3" model="school.attendance">
+        <field name="student_id" ref="student_92"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_93_1" model="school.attendance">
+        <field name="student_id" ref="student_93"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_5"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_93_2" model="school.attendance">
+        <field name="student_id" ref="student_93"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_93_3" model="school.attendance">
+        <field name="student_id" ref="student_93"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_94_1" model="school.attendance">
+        <field name="student_id" ref="student_94"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_6"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_94_2" model="school.attendance">
+        <field name="student_id" ref="student_94"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_94_3" model="school.attendance">
+        <field name="student_id" ref="student_94"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_95_1" model="school.attendance">
+        <field name="student_id" ref="student_95"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_7"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_95_2" model="school.attendance">
+        <field name="student_id" ref="student_95"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_95_3" model="school.attendance">
+        <field name="student_id" ref="student_95"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_96_1" model="school.attendance">
+        <field name="student_id" ref="student_96"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_8"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_96_2" model="school.attendance">
+        <field name="student_id" ref="student_96"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_96_3" model="school.attendance">
+        <field name="student_id" ref="student_96"/>
+        <field name="class_id" ref="class_2"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_97_1" model="school.attendance">
+        <field name="student_id" ref="student_97"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_9"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_97_2" model="school.attendance">
+        <field name="student_id" ref="student_97"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_97_3" model="school.attendance">
+        <field name="student_id" ref="student_97"/>
+        <field name="class_id" ref="class_3"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_98_1" model="school.attendance">
+        <field name="student_id" ref="student_98"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_10"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_98_2" model="school.attendance">
+        <field name="student_id" ref="student_98"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_98_3" model="school.attendance">
+        <field name="student_id" ref="student_98"/>
+        <field name="class_id" ref="class_4"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_99_1" model="school.attendance">
+        <field name="student_id" ref="student_99"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_1"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_99_2" model="school.attendance">
+        <field name="student_id" ref="student_99"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_99_3" model="school.attendance">
+        <field name="student_id" ref="student_99"/>
+        <field name="class_id" ref="class_5"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+    <record id="attendance_100_1" model="school.attendance">
+        <field name="student_id" ref="student_100"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_3"/>
+        <field name="teacher_id" ref="teacher_2"/>
+        <field name="date">2025-04-02</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_100_2" model="school.attendance">
+        <field name="student_id" ref="student_100"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_1"/>
+        <field name="teacher_id" ref="teacher_3"/>
+        <field name="date">2025-04-03</field>
+        <field name="status">present</field>
+    </record>
+    <record id="attendance_100_3" model="school.attendance">
+        <field name="student_id" ref="student_100"/>
+        <field name="class_id" ref="class_1"/>
+        <field name="subject_id" ref="subject_2"/>
+        <field name="teacher_id" ref="teacher_4"/>
+        <field name="date">2025-04-04</field>
+        <field name="status">absent</field>
+    </record>
+</odoo>

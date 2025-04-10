@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_school" name="School"/>
+        <menuitem id="menu_student" name="Student" parent="menu_school" action="action_student"/>
+        <menuitem id="menu_teacher" name="Teacher" parent="menu_school" action="action_teacher"/>
+        <menuitem id="menu_class" name="Class" parent="menu_school" action="action_school_class"/>
+        <menuitem id="menu_subject" name="Subject" parent="menu_school" action="action_subject"/>
+        <menuitem id="menu_attendance" name="Attendance" parent="menu_school" action="action_school_attendance"/>
+        <menuitem id="menu_student_invoice" name="Student Invoices" parent="menu_school" action="action_student_invoice" sequence="50"/>
+    </data>
+</odoo>

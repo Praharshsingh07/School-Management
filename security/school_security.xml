@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="module_category_school_base" model="ir.module.category">
+            <field name="name">School Base</field>
+            <field name="sequence">5</field>
+        </record>
+
+        <!-- Module Category for School Management -->
+        <record id="module_category_school_management" model="ir.module.category">
+            <field name="name">School Management</field>
+            <field name="description">Manage School Operations</field>
+            <field name="parent_id" ref="module_category_school_base"/>
+            <field name="sequence">10</field>
+        </record>
+
+                <!-- School Student Group -->
+        <record id="group_school_student" model="res.groups">
+            <field name="name">School Student</field>
+            <field name="category_id" ref="module_category_school_management"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+
+                <!-- School Teacher Group -->
+        <record id="group_school_teacher" model="res.groups">
+            <field name="name">School Teacher</field>
+            <field name="category_id" ref="module_category_school_management"/>
+            <field name="implied_ids" eval="[(4, ref('group_school_student'))]"/>
+        </record>
+
+        
+        <!-- School Administrator Group -->
+        <record id="group_school_admin" model="res.groups">
+            <field name="name">School Administrator</field>
+            <field name="category_id" ref="module_category_school_management"/>
+            <field name="implied_ids" eval="[(4, ref('group_school_teacher'))]"/>
+        </record>
+
+    </data>
+</odoo>

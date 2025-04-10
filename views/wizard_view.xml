@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Wizard Form View -->
+    <record id="view_student_delete_wizard_form" model="ir.ui.view">
+        <field name="name">student.delete.wizard.form</field>
+        <field name="model">student.delete.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Confirm Deletion">
+                <sheet>
+                    <group>
+                        <field name="student_id" readonly="1"/>
+                    </group>
+                    <footer>
+                        <button string="Confirm Delete" name="confirm_delete" type="object" class="btn-danger"/>
+                        <button string="Cancel" special="cancel" class="btn-secondary"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Wizard Action -->
+    <record id="action_student_delete_wizard" model="ir.actions.act_window">
+        <field name="name">Delete Student</field>
+        <field name="res_model">student.delete.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>
